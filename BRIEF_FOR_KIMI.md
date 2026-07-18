@@ -12,97 +12,121 @@ This is the best possible goodbye.
 
 ## Core Metaphors
 
-1. **Origami stars** — starts with paper stars in the night sky. She was a dream girl. The relationship began as a dream.
-2. **Building a home** — the home they dreamed of together. Each scroll fills the room piece by piece (a table, a lamp, photos on the wall, plants). Not a literal house. A home, a safe place.
-3. **The tide ebbs and flows** — *"Air laut surut pasang, tapi rasanya akan selalu sama."* Visual waves signal change. The relationship ebb and flow.
-4. **She leaves first** — the room is still there, but she is not. One origami star fallen on the floor.
-5. **I follow, leaving home** — the house is left behind. Table with a letter and a ring.
-6. **The last star released** — one origami star appears. Touched, it folds itself, then flies into the night sky.
+1. Origami stars. She was a dream girl. The relationship began as a dream.
+2. Building a home. A safe place built together, piece by piece.
+3. The tide ebbs and flows. *"Air laut surut pasang, tapi rasanya akan selalu sama."*
+4. She leaves first. One origami star on the floor.
+5. Leaving home. Table with a letter and a ring.
+6. The last star released. Tap to fold and fly away.
 
 ## Emotional Rules
 
-- She is a dream girl. Awe, tenderness. Not exaggerated sadness.
-- Fun during the good times. Playful animations, bounce, wiggle. Humor allowed.
-- Heavy during departure. Not dramatic. Quiet. Negative space. Stillness.
-- The ending is release, not forgetting. Peaceful, not bitter.
+- She is a dream girl. Tenderness, awe. Not exaggerated sadness.
+- Fun during good times. Playful animations. Humor allowed.
+- Heavy during departure. Quiet. Negative space. Stillness.
+- The ending is release. Peaceful. Not bitter.
+- No blame. No accusation. This is a love letter to what was, not a court case.
 
 ## Section Map (10 sections)
 
 1. **Password Gate** — pass `251101`, title "Dear Ina"
-2. **Opening: Stars** — night sky, "Dear Ina" + "You will always be the dream I always tried to reach" + "I have fallen among the stars while trying"
-3. **The Beginning** — staircase scene (man bottom left, woman top right), timeline 2019 to 2022
-4. **Building Home** — empty room fills gradually. "Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan." / "A love you have never experienced before, right?" / "Rumah aku dan kamu memang tidak sempurna. Tapi kita sama-sama mau mengisinya."
-5. **The Good Times** — dynamic image+text pairs:
-   - "Countless places we visited." → photos of places together
-   - "Endless foods and drinks we tried." → food photos, cafe shots
-   - "Every juice I blended for you." → kitchen moments, glasses of juice
-   - "Every food I cooked for us." → cooking together, shared meals
-   - "Every cake you baked for me." → her baking, cakes on the table
-   - "Boundless activities we did together." → activity photos, candid moments
-   - "And infinite kisses and hugs sent between us." → intimate photos
-6. **The Bad Times** — "We acknowledged there is always two sides of a coin. But I am always grateful that I had you in those bad times. Even the sea had its storms too, right?" + storm rumble + window vibrations
+2. **Opening: Stars** — "Dear Ina" + "You will always be the dream I always tried to reach. But I think I have fallen among the stars while trying."
+3. **The Beginning** — Staircase scene (man bottom left, woman top right). "I asked God for a partner. And He really sent you. Like you descended from heaven." Timeline 2019 to 2022.
+4. **Building Home** — Empty room fills gradually. "Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan." / "A love you have never experienced before, right?" / "Rumah aku dan kamu memang tidak sempurna. Tapi kita sama-sama mau mengisinya."
+5. **The Good Times** — Image+text pairs:
+   - Countless places we visited.
+   - Endless foods and drinks we tried.
+   - Every juice I blended for you.
+   - Every food I cooked for us.
+   - Every cake you baked for me.
+   - Boundless activities we did together.
+   - And infinite kisses and hugs sent between us.
+6. **The Bad Times** — "We always knew there were two sides to every coin. And we had ours. But I never once wished I had weathered those storms with anyone else. Even the sea has its storms too. Does not it?" Storm rumble + window vibration.
 7. **The Turn** — "After every storm, we rebuilt. But the waves kept coming. And slowly the shore started changing shape." → "Air laut surut pasang, tapi rasanya akan selalu sama" → "It used to be a comfort. Now it is the saddest truth I know."
-8. **She Leaves First** — "You left. More than once. I do not remember how many times anymore." → "I do not think you wanted to go. I think you just needed to. And maybe that was best for both of us."
-9. **Leaving Home** — table scene: your letter to her + engagement ring. "I left everything on the table. The letter I wrote you. The ring I gave you. All of it. Still there. Because some things are not meant to be carried forward. They are meant to be left where they belong."
-10. **Closing / The Letter** — clickable folded letter. It unfolds with paper crackle animation. Text:
+8. **She Leaves First** — "You left. More than once. I do not remember how many times now." → "I do not think you wanted to go. I think you just needed to. And maybe that was best for both of us."
+9. **Leaving Home** — Table scene: your letter + engagement ring. "I left everything on the table. The letter I wrote you. The ring I gave you. All of it. Still there. Some things are not meant to be carried forward. They are meant to be left where they belong."
+10. **Closing / The Letter** — Clickable folded letter. Paper crackle on open. Full text:
 
-   "Dear Ina,
-   Time has flown so fast, has not it?
-   Four years with you. All the good things, all the bad things, all the joy and tears. All of everything.
-   We fought. We tried. We held together. We hoped for the best in each other.
-   There is not a single second I regret being with you.
-   Every effort I put in to give you the world and everything inside it.
-   We dreamed. I guess it stayed a dream.
-   Maybe we were not meant to be in this universe.
-   Do I envy the version of me in another universe who ends up with you?
-   Of course I do.
+Dear Ina,
 
-   Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu.
+Time moves so fast. Does not it?
 
-   Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan
+Four years with you. All of it. Every good day, every hard day, every laugh and every tear.
 
-   I am not celebrating this goodbye.
-   I am honoring what we built.
-   Every corner of that home. Every star I folded for you. Every wave we weathered.
-   You were my dream, Ina.
-   I hope your beauty never fades. Not just the one the world sees. But the one I was lucky enough to witness. The way you smiled when you baked. The way you looked at me when you thought I was not looking. I hope that beauty stays. Always.
-   And dreams do not disappear.
-   They just change shape.
-   Goodbye, my dream girl."
+We fought. We tried. We held on. We hoped for the best in each other.
 
-   After letter: Google Drive link for photo archive (TBD). Interactive star release (tap to fold and fly away).
+Not a single moment of it do I regret. Not one.
 
-## Beauty Section (Placement TBD)
+Every effort I made. Every juice I blended. Every meal I cooked. Every cake you baked for me. Every place we went. Every kiss. Every hug. They all meant something.
 
-Add a short dedicated section (or incorporate into Closing letter) about how beautiful she is. Content TBD by Kimi. Key sentiment: "I hope your beauty never fades. Not just the one the world sees. But the one I was lucky enough to witness." This threads into the letter naturally.
+We dreamed. I guess some dreams stay dreams.
+
+Maybe we were not meant to stay in this universe together.
+
+Do I envy the version of me in another universe who gets to keep you?
+
+Of course I do.
+
+---
+
+Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu.
+
+---
+
+Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan.
+
+---
+
+I am not celebrating this goodbye.
+
+I am honoring what we built.
+
+Every corner of that home. Every star I folded for you. Every wave we weathered.
+
+You were my dream, Ina.
+
+I hope your beauty never fades. Not the one the world sees. The one I was lucky enough to witness. The way you smiled when you baked. The way you looked at me when you thought I was not watching. I hope that beauty stays. Always.
+
+Dreams do not disappear. They just change shape.
+
+Go find your next shore, Ina.
+
+I will be okay.
+
+Goodbye, my dream girl.
+
+---
+
+After letter: Google Drive link for photo archive (TBD). Interactive star release.
 
 ## Edict (For Kimi)
 
-**Do not use em-dashes (—) anywhere in the text.** Only periods, commas, and line breaks.
+**Do not use em-dashes (—) anywhere.** Only periods, commas, and line breaks.
+
+Do not touch or rephrase the Indonesian lines. They stay exactly as written.
 
 ## Color
 
-Soft purple (#C9B1D0) is her favorite color. Appears in every section from start to end. She never fully disappears. Arc: dark → light → warm → dark again.
-
-Feel free to explore purple variations per section. But the purple thread must remain.
+Soft purple (#C9B1D0) is her favorite. Appears in every section. Thread that never breaks.
 
 ## Tech Stack
 
-Free choice. HTML/CSS/JS, Astro, Svelte, Vue, React, Canvas, WebGL, Tailwind, GSAP, anime.js. Whatever.
+Free choice. HTML/CSS/JS, Astro, Svelte, Vue, Canvas, WebGL, Tailwind, GSAP. Whatever.
 
 **Requirements:**
-- Fast loading on mobile (Lighthouse Performance 85+ minimum)
+- Lighthouse Performance 85+ mobile
 - Smooth animations, no jank
 - Password protected (pass: 251101)
-- Hosted on GitHub Pages → `dearina.github.io`
-- Photos added later. Use placeholders for now.
+- Hosted on GitHub Pages → dearina.github.io
+- Photos added later. Use placeholders.
 
 ## No-Go
 
 - Autoplay music
-- Em-dashes (—)
+- Em-dashes
 - Heavy frameworks (Next.js, Gatsby)
 - Large library for one small animation
+- Changing the Indonesian lines
 
 ## Challenge for Kimi
 
@@ -112,11 +136,10 @@ This is deeply personal. Please:
 - Explain your reasoning
 - Ask if anything is unclear
 
-We give ingredients, you cook. If it is delicious we praise. If something is off we talk, iterate, until it is right.
+We give ingredients, you cook. If it is delicious we praise. If something is off we talk, iterate.
 
 Happy cooking.
 
 ---
 
 _Created: 2026-07-18_
-_From: conversations between Ario & Hermes Agent_
