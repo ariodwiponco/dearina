@@ -44,10 +44,12 @@ Single-page, top-to-bottom, chronological:
 2. **Opening** — title card, slow fade-in on first visit, quote
 3. **The beginning** — how it started, first photos
 4. **The good times** — adventures, memories, photos, playful animations
-5. **Letters** — written words, interactive (typewriter? fold/unfold?)
-6. **The turn** — when things changed
-7. **The end** — goodbye, last words
-8. **Closing** — final message, interactive release (button / flower / paper crane)
+5. **Letters** — written words, fold/unfold paper letter with handwritten font
+6. **Building home** — "rumah yang kita impikan" — warm interior ambiance, window frames, candlelight glow, feeling of a shared safe place (not literal house, but home)
+7. **The turn** — when things changed
+8. **The end** — goodbye, last words, emphasized by the idiom: *"Coming air laut surut pasang, tapi rasanya akan selalu sama"*
+9. **Leaving home** — I left home (moving on from the relationship). The house fades, door closing, tide/wave ambient cue, letting go
+10. **Closing** — final message, interactive release
 
 ## 8. Animation & Transition Per Section
 
@@ -56,10 +58,12 @@ Single-page, top-to-bottom, chronological:
 | Password gate | Clean slide-in, no drama | Functional, sets tone |
 | Opening → Beginning | Soft fade-in, slow drift up (20-30px) | Calm, reflective |
 | The good times | **Playful** — photos flip in like cards, bounce slightly, wiggle on hover | Fun, alive |
-| Letters | Interactive — typewriter? fold/unfold like real paper? decide later | Intimate |
-| The turn | Vignette darkens gradually, animations decelerate | Tone shift |
-| The end | Typewriter text, floating dust/particle overlay (subtle) | Melancholic, intimate |
-| Closing | Everything stills, final fade to soft dawn, interactive element | Release |
+| Letters | Interactive fold/unfold paper, handwritten font | Intimate |
+| **Building home** | Warm interior ambiance — window frames, warm wood tones, candlelight glow | Safe, dreamed |
+| The turn → The end | Vignette darkens gradually, animations decelerate | Tone shift |
+| **Leaving home** | The house fades, tide/wave ambient cue, door closing | Melancholic, release |
+
+## ...
 
 - **Section-triggered mood shift:** animations, colors, and overall "feel" change as user scrolls between chapters
 - All animations use `IntersectionObserver` + CSS transitions/transforms (no heavy libs)
@@ -76,7 +80,22 @@ Single-page, top-to-bottom, chronological:
 - **Handwritten font** — cursive, feels personal, like reading a real letter on paper
 - Paper texture background on the letter itself (grain overlay)
 
-## 11. Photography
+## 11. Ambiance & Sound
+- **Ambient audio** throughout: soft wave/tide sound that ebbs and flows (referencing *air laut surut pasang*)
+- Music track TBD (selected later)
+- Audio fades in/out based on section — ambient waves most prominent in "leaving home" section
+- User-controlled play/pause, top-right corner
+
+## 12. Photography
+- Photos (user's own — to be curated/moved later)
+- Define how photos enter: portrait vs landscape, grids vs full-bleed
+- Good times: playful card-flip entry
+- Later sections: slower, gentler reveals
+
+## 13. Content
+- Photos
+- Written letters / poetry
+- Effects & animations
 - Photos (user's own — to be curated/moved later)
 - Define how photos enter: portrait vs landscape, grids vs full-bleed
 - Good times: playful card-flip entry
