@@ -106,10 +106,13 @@ TBD — hex codes to be defined per section during design phase.
 - Room fully furnished, vibrant colors
 - **Dynamic image + text pairs** — each line has its own photos (single or multiple) accompanying it
 - Text appears one line at a time with scroll, each has matching photo(s):
-  - **"Countless places we visited."** → photos of places together (varied: full-bleed hero, or small cluster)
-  - **"Endless foods and drinks we tried."** → food photos, cafe shots, street food
+  - **"Countless places we visited."** → photos of places together
+  - **"Endless foods and drinks we tried."** → food photos, cafe shots
+  - **"Every juice I blended for you."** → kitchen moments, glasses of juice
+  - **"Every food I cooked for us."** → cooking together, shared meals
+  - **"Every cake you baked for me."** → her baking, cakes on the table
   - **"Boundless activities we did together."** → activity photos, candid moments
-  - **"And infinite kisses and hugs sent between us."** → close intimate photos
+  - **"And infinite kisses and hugs sent between us."** → intimate photos
 - Photos enter playfully — card flip, bounce, staggered reveal
 - Hover/tap wiggle on photos
 - Masonry or varied grid — photos sized by importance
@@ -179,32 +182,50 @@ TBD — hex codes to be defined per section during design phase.
 - A single origami star floats gently on screen.
 - **Below it: the folded letter** — same paper texture as Leaving Home table scene.
 - **Click/tap the letter** → it unfolds with a paper-crackle animation
-- **Text revealed (improved):**
-  - *"Dear Ina,"*
-  - *(pause)*
-  - *"Time has flown so fast, has not it?"*
-  - *"Four years with you. All the good things, all the bad things, all the joy and tears. All of everything."*
-  - *"We fought. We tried. We held together. We hoped for the best in each other."*
-  - *"There is not a single second I regret being with you."*
-  - *"Every effort I put in to give you the world and everything inside it."*
-  - *"We dreamed. I guess it stayed a dream."*
-  - *"Maybe we were not meant to be in this universe."*
-  - *"Do I envy the version of me in another universe who ends up with you?"*
-  - *"Of course I do."*
-  - *(pause)*
-- **Keep this exactly as is (below):**
-  - *"Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan"*
-  - *(pause)*
+- **Text revealed:**
 
-#### Closure lines (after the Indonesian line):
-- *"I am not celebrating this goodbye."*
-- *"I am honoring what we built."*
-- *"Every corner of that home. Every star I folded for you. Every wave we weathered."*
-- *"You were my dream, Ina."*
-- *"And dreams do not disappear."*
-- *"They just change shape."*
-- *(pause)*
-- *"Goodbye, my dream girl."*
+  *"Dear Ina,"*
+
+  *"Time has flown so fast, has not it?"*
+
+  *"Four years with you. All the good things, all the bad things, all the joy and tears. All of everything."*
+
+  *"We fought. We tried. We held together. We hoped for the best in each other."*
+
+  *"There is not a single second I regret being with you."*
+
+  *"Every effort I put in to give you the world and everything inside it."*
+
+  *"We dreamed. I guess it stayed a dream."*
+
+  *"Maybe we were not meant to be in this universe."*
+
+  *"Do I envy the version of me in another universe who ends up with you?"*
+
+  *"Of course I do."*
+
+  *(pause)*
+
+  *"Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu."*
+
+  *(pause)*
+
+  *"Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan."*
+
+  *(pause)*
+
+  *"I am not celebrating this goodbye."*
+  *"I am honoring what we built."*
+  *"Every corner of that home. Every star I folded for you. Every wave we weathered."*
+
+  *"You were my dream, Ina."*
+
+  *"I hope your beauty never fades. Not just the one the world sees. But the one I was lucky enough to witness. The way you smiled when you baked. The way you looked at me when you thought I was not looking. I hope that beauty stays. Always."*
+
+  *"And dreams do not disappear."*
+  *"They just change shape."*
+
+  *"Goodbye, my dream girl."*
 
 #### Google Drive Archive
 - A small line or button at the bottom: *"Archive of us"*
@@ -225,7 +246,7 @@ TBD — hex codes to be defined per section during design phase.
 | The beginning | Night→dawn gradient shift, photos fade-in softly | Calm, hopeful |
 | Building home | Items appear one by one, fade+drift-up, warm glow grows | Growing warmth |
 | The good times | **Playful** — photos flip-in, bounce, wiggle on hover | Fun, alive |
-| The bad times | Slow dim, gentle deceleration | Honest, quiet |
+| The bad times | Slow dim, gentle deceleration, storm vibration | Honest, quiet |
 | The turn | Vignette darkens, tide speeds up, stars dim | Unsettling |
 | She leaves | Stillness — almost no animation, just emptiness | Hollow |
 | Leaving home | House dissolves, door opening, fade to horizon | Melancholic |

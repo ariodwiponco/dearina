@@ -32,7 +32,14 @@ This is the best possible goodbye.
 2. **Opening: Stars** — night sky, "Dear Ina" + "You will always be the dream I always tried to reach" + "I have fallen among the stars while trying"
 3. **The Beginning** — staircase scene (man bottom left, woman top right), timeline 2019 to 2022
 4. **Building Home** — empty room fills gradually. "Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan." / "A love you have never experienced before, right?" / "Rumah aku dan kamu memang tidak sempurna. Tapi kita sama-sama mau mengisinya."
-5. **The Good Times** — dynamic image+text pairs: "Countless places we visited." / "Endless foods and drinks we tried." / "Boundless activities we did together." / "And infinite kisses and hugs sent between us."
+5. **The Good Times** — dynamic image+text pairs:
+   - "Countless places we visited." → photos of places together
+   - "Endless foods and drinks we tried." → food photos, cafe shots
+   - "Every juice I blended for you." → kitchen moments, glasses of juice
+   - "Every food I cooked for us." → cooking together, shared meals
+   - "Every cake you baked for me." → her baking, cakes on the table
+   - "Boundless activities we did together." → activity photos, candid moments
+   - "And infinite kisses and hugs sent between us." → intimate photos
 6. **The Bad Times** — "We acknowledged there is always two sides of a coin. But I am always grateful that I had you in those bad times. Even the sea had its storms too, right?" + storm rumble + window vibrations
 7. **The Turn** — "After every storm, we rebuilt. But the waves kept coming. And slowly the shore started changing shape." → "Air laut surut pasang, tapi rasanya akan selalu sama" → "It used to be a comfort. Now it is the saddest truth I know."
 8. **She Leaves First** — "You left. More than once. I do not remember how many times anymore." → "I do not think you wanted to go. I think you just needed to. And maybe that was best for both of us."
@@ -50,17 +57,24 @@ This is the best possible goodbye.
    Do I envy the version of me in another universe who ends up with you?
    Of course I do.
 
+   Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu.
+
    Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan
 
    I am not celebrating this goodbye.
    I am honoring what we built.
    Every corner of that home. Every star I folded for you. Every wave we weathered.
    You were my dream, Ina.
+   I hope your beauty never fades. Not just the one the world sees. But the one I was lucky enough to witness. The way you smiled when you baked. The way you looked at me when you thought I was not looking. I hope that beauty stays. Always.
    And dreams do not disappear.
    They just change shape.
    Goodbye, my dream girl."
 
    After letter: Google Drive link for photo archive (TBD). Interactive star release (tap to fold and fly away).
+
+## Beauty Section (Placement TBD)
+
+Add a short dedicated section (or incorporate into Closing letter) about how beautiful she is. Content TBD by Kimi. Key sentiment: "I hope your beauty never fades. Not just the one the world sees. But the one I was lucky enough to witness." This threads into the letter naturally.
 
 ## Edict (For Kimi)
 
