@@ -10,13 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script type="module" crossorigin src="./assets/index-UhzeAmn6.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BUKM8fz9.css">
+  <script type="module" crossorigin src="./assets/index-CSTdwo-Q.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BFvZSUc8.css">
 </head>
 <body>
   <div id="root">
     <div class="noise"></div>
     <div class="vignette"></div>
+    <div id="bg-canvas"></div>
     <div class="progress-bar"><span class="progress-fill"></span></div>
 
     <section id="gate" class="gate">
@@ -31,7 +32,12 @@
     </section>
 
     <main id="stage" class="stage" aria-hidden="true">
-      <section id="hero" class="scene scene-hero" data-theme="deep">
+      <button id="sound-toggle" class="sound-toggle" aria-label="Toggle ambient sound">
+        <span class="sound-icon">♫</span>
+        <span class="sound-label">sound</span>
+      </button>
+
+      <section id="hero" class="scene scene-dark">
         <canvas id="tide-canvas"></canvas>
         <div class="hero-copy">
           <div class="hero-title">Dear Ina</div>
@@ -40,7 +46,7 @@
         </div>
       </section>
 
-      <section id="opening" class="scene scene-opening" data-theme="deep">
+      <section id="opening" class="scene scene-dark">
         <div class="container narrow">
           <div class="typed-block" data-typed>
             <p>Dear Ina,</p>
@@ -51,8 +57,7 @@
         </div>
       </section>
 
-      <section id="beginning" class="scene scene-beginning" data-theme="warm">
-        <div class="scene-bg"></div>
+      <section id="beginning" class="scene scene-light">
         <div class="container">
           <div class="diary-wrap">
             <div class="diary-text">
@@ -68,23 +73,32 @@
                 <p>In 2022, I finally gathered the courage to reach out.</p>
               </div>
             </div>
-            <div class="photo-reveal">
-              <img src="./images/placeholder-1.jpg" alt="placeholder" loading="lazy" />
-              <div class="photo-caption">2019 — before we knew</div>
+            <div class="slide-card slide-right">
+              <div class="photo-reveal">
+                <img src="./images/placeholder-1.jpg" alt="placeholder" loading="lazy" />
+                <div class="photo-caption">2019 — before we knew</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="moving" class="scene scene-moving" data-theme="warm">
-        <div class="scene-bg"></div>
+      <section id="moving" class="scene scene-light">
         <div class="container narrow">
           <div class="chapter-mark">II</div>
           <h2 class="scene-title">Moving to the House</h2>
           <div class="house-scene" id="house-scene">
-            <div class="house"></div>
-            <div class="figure figure-left"></div>
-            <div class="figure figure-right"></div>
+            <div class="house-illustration">
+              <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                <rect x="110" y="80" width="80" height="70" fill="#D4C3DA" />
+                <polygon points="110,80 150,40 190,80" fill="#C9B1D0" />
+                <rect x="135" y="110" width="30" height="40" rx="15" fill="#8E7A94" />
+                <circle cx="80" cy="145" r="12" fill="#B8A2BD" />
+                <rect x="74" y="125" width="5" height="20" rx="2" fill="#8E7A94" />
+                <circle cx="220" cy="145" r="12" fill="#9E86A6" />
+                <rect x="214" y="125" width="5" height="20" rx="2" fill="#8E7A94" />
+              </svg>
+            </div>
           </div>
           <div class="typed-block" data-typed>
             <p>A love you have never experienced before, right?</p>
@@ -92,15 +106,12 @@
         </div>
       </section>
 
-      <section id="building" class="scene scene-building" data-theme="warm">
-        <div class="scene-bg"></div>
+      <section id="building" class="scene scene-light">
         <div class="container">
           <div class="chapter-mark">III</div>
           <h2 class="scene-title">Building Home</h2>
           <div class="room" id="room">
-            <div class="room-window">
-              <div class="sea"></div>
-            </div>
+            <div class="room-window"><div class="sea"></div></div>
             <div class="item item-table" data-item="table"></div>
             <div class="item item-chair" data-item="chair"></div>
             <div class="item item-lamp" data-item="lamp"></div>
@@ -118,23 +129,22 @@
         </div>
       </section>
 
-      <section id="good" class="scene scene-good" data-theme="play">
-        <div class="scene-bg"></div>
+      <section id="good" class="scene scene-play">
         <div class="container">
           <div class="chapter-mark">IV</div>
           <h2 class="scene-title">The Good Times</h2>
           <div class="good-grid" id="good-grid">
-            <div class="good-item"><span class="good-text">Countless places we visited.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Endless foods and drinks we tried.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every juice we blended together.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every meal we cooked for each other.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every cake we baked for us.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Boundless activities we did together.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">And infinite kisses and hugs sent between us.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every date plan we created.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every sunrise we chased.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every train we almost missed.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item"><span class="good-text">Every song we sang in the car.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">Countless places we visited.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-right"><span class="good-text">Endless foods and drinks we tried.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">Every juice we blended together.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-right"><span class="good-text">Every meal we cooked for each other.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">Every cake we baked for us.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-right"><span class="good-text">Boundless activities we did together.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">And infinite kisses and hugs sent between us.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-right"><span class="good-text">Every date plan we created.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">Every sunrise we chased.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-right"><span class="good-text">Every train we almost missed.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item slide-left"><span class="good-text">Every song we sang in the car.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
           </div>
           <div class="typed-block alive-line" data-typed>
             <p>We were so alive, were not we?</p>
@@ -142,8 +152,7 @@
         </div>
       </section>
 
-      <section id="engagement" class="scene scene-engagement" data-theme="play">
-        <div class="scene-bg"></div>
+      <section id="engagement" class="scene scene-play">
         <div class="container narrow">
           <div class="ring-burst" id="ring-burst"></div>
           <div class="typed-block" data-typed>
@@ -152,8 +161,7 @@
         </div>
       </section>
 
-      <section id="bad" class="scene scene-bad" data-theme="cool">
-        <div class="scene-bg"></div>
+      <section id="bad" class="scene scene-cool">
         <div class="storm" id="storm"></div>
         <div class="container narrow">
           <div class="chapter-mark">V</div>
@@ -167,8 +175,7 @@
         </div>
       </section>
 
-      <section id="turn" class="scene scene-turn" data-theme="cool">
-        <div class="scene-bg"></div>
+      <section id="turn" class="scene scene-cool">
         <div class="tide-wide" id="tide-wide"></div>
         <div class="container narrow">
           <div class="chapter-mark">VI</div>
@@ -187,8 +194,7 @@
         </div>
       </section>
 
-      <section id="leaves" class="scene scene-leaves" data-theme="cool">
-        <div class="scene-bg"></div>
+      <section id="leaves" class="scene scene-cool">
         <div class="container narrow">
           <div class="chapter-mark">VII</div>
           <h2 class="scene-title">She Leaves First</h2>
@@ -207,8 +213,7 @@
         </div>
       </section>
 
-      <section id="leaving" class="scene scene-leaving" data-theme="cool">
-        <div class="scene-bg"></div>
+      <section id="leaving" class="scene scene-cool">
         <div class="container narrow">
           <div class="chapter-mark">VIII</div>
           <h2 class="scene-title">Leaving Home</h2>
@@ -228,8 +233,7 @@
         </div>
       </section>
 
-      <section id="closing" class="scene scene-closing" data-theme="deep">
-        <div class="scene-bg"></div>
+      <section id="closing" class="scene scene-dark">
         <canvas id="star-canvas"></canvas>
         <div class="container narrow">
           <div class="chapter-mark">IX</div>
@@ -270,9 +274,7 @@
             </div>
             <div class="release-note" id="release-note">The star has gone where the tide takes it.</div>
           </div>
-          <div class="archive-link">
-            <a href="#" target="_blank" rel="noopener">Archive of us</a>
-          </div>
+          <div class="archive-link"><a href="#" target="_blank" rel="noopener">Archive of us</a></div>
         </div>
       </section>
 
@@ -280,6 +282,6 @@
         <p>Dear Ina · made quietly · 2026</p>
       </footer>
     </main>
-  </div>
+  </div>
 </body>
 </html>

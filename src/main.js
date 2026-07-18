@@ -9,6 +9,8 @@ import { initLetter } from './js/letter.js'
 import { initStar } from './js/star.js'
 import { initStarCanvas } from './js/starCanvas.js'
 import { initProgress } from './js/progress.js'
+import { initSound } from './js/sound.js'
+import { initStaircase } from './js/staircase.js'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -17,12 +19,14 @@ initGate(() => {
   document.getElementById('stage').classList.add('unlocked')
   initTideCanvas()
   initTypewriter()
+  initStaircase()
   initScrollScenes()
   initRoom()
   initLetter()
   initStar()
   initStarCanvas()
   initProgress()
+  initSound()
 
   gsap.fromTo('#hero .hero-title', { y: 80, opacity: 0, rotateX: 15 }, { y: 0, opacity: 1, rotateX: 0, duration: 1.6, ease: 'power3.out', delay: 0.2 })
   gsap.fromTo('#hero .scroll-orb', { opacity: 0, y: 20 }, { opacity: 0.7, y: 0, duration: 1, ease: 'power2.out', delay: 1.2 })
