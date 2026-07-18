@@ -276,7 +276,19 @@ After reading, one origami star appears. Tap to fold and fly away into the night
 
 Section-triggered mood shift. `IntersectionObserver` + CSS transforms only.
 
-## 10. UI
+## Challenge for Kimi
+
+This is deeply personal. Please do not follow the plan blindly. Improve it.
+
+- If you find a better layout, animation, transition, or structure than what is described here, use it.
+- If something in the plan feels heavy or unnecessary, simplify it.
+- If something is missing that would make this more beautiful, add it.
+- The only fixed rules: the text content (especially the two Indonesian lines), the password, and no em-dashes.
+- Everything else is yours to decide.
+
+We give you the ingredients. You cook the meal.
+
+Ask if anything is unclear.
 - Scroll progress indicator (thin line top-left, or chapter dots)
 - Loading state: title card with slow fade-in on first visit
 - Play/pause button top-right
@@ -287,6 +299,20 @@ Section-triggered mood shift. `IntersectionObserver` + CSS transforms only.
 - No libraries (no jQuery, no GSAP)
 - Photos WebP, lazy loading
 - GPU-accelerated animations (transform + opacity only)
+
+## Challenge for Kimi
+
+This is deeply personal. Please do not follow the plan blindly. Improve it.
+
+- If you find a better layout, animation, transition, or structure than what is described here, use it.
+- If something in the plan feels heavy or unnecessary, simplify it.
+- If something is missing that would make this more beautiful, add it.
+- The only fixed rules: the text content (especially the two Indonesian lines), the password, and no em-dashes.
+- Everything else is yours to decide.
+
+We give you the ingredients. You cook the meal.
+
+Ask if anything is unclear.
 
 ---
 

@@ -133,12 +133,16 @@ Free choice. HTML/CSS/JS, Astro, Svelte, Vue, Canvas, WebGL, Tailwind, GSAP. Wha
 ## Challenge for Kimi
 
 This is deeply personal. Please:
-- Suggest ideas beyond what is written
-- Push limits while keeping performance and feeling balanced
-- Explain your reasoning
-- Ask if anything is unclear
+- Do not follow the plan blindly. Improve it.
+- If you find a better layout, animation, transition, or structure than what is described here, use it.
+- If something in the plan feels heavy or unnecessary, simplify it.
+- If something is missing that would make this more beautiful, add it.
+- The only fixed rules: the text content (especially the two Indonesian lines), the password, and no em-dashes.
+- Everything else — layout, effects, colors, sequencing, interaction details — is yours to decide.
 
-We give ingredients, you cook. If it is delicious we praise. If something is off we talk, iterate.
+We give you the ingredients. You cook the meal. If you need to change the recipe, change it. Surprise us.
+
+Ask if anything is unclear.
 
 Happy cooking.
 
