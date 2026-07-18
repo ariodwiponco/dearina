@@ -97,11 +97,18 @@ Dynamic image + text pairs. Each line has matching photos:
 
 - *"Countless places we visited."*
 - *"Endless foods and drinks we tried."*
-- *"Every juice I blended for you."*
-- *"Every food I cooked for us."*
-- *"Every cake you baked for me."*
+- *"Every juice we blended together."*
+- *"Every meal we cooked for each other."*
+- *"Every cake we baked for us."*
 - *"Boundless activities we did together."*
 - *"And infinite kisses and hugs sent between us."*
+
+- *"Every date plan we created."*
+- *"Every sunrise we chased."*
+- *"Every train we almost missed."*
+- *"Every song we sang in the car."*
+
+Followed by: *"We were so alive, were not we?"*
 
 Playful animations. Card flip. Bounce. Wiggle on hover. Masonry grid.
 
@@ -182,7 +189,9 @@ We fought. We tried. We held on. We hoped for the best in each other.
 
 Not a single moment of it do I regret. Not one.
 
-Every effort I made. Every juice I blended. Every meal I cooked. Every cake you baked for me. Every place we went. Every kiss. Every hug. They all meant something.
+Every place we went together. Every date we planned. Every sunrise we chased. Every train we almost missed. Every song we sang in the car.
+
+Every juice we blended. Every meal we cooked. Every cake we baked. Every kiss. Every hug. They all meant something.
 
 We dreamed. I guess some dreams stay dreams.
 
@@ -210,7 +219,7 @@ Every corner of that home. Every star I folded for you. Every wave we weathered.
 
 You were my dream, Ina.
 
-I hope your beauty never fades. Not the one the world sees. The one I was lucky enough to witness. The way you smiled when you baked. The way you looked at me when you thought I was not watching. I hope that beauty stays. Always.
+I hope your beauty never fades. Not the one the world sees. The one I was lucky enough to witness. The way you smiled when we baked together. The way you looked at me when you thought I was not watching. I hope that beauty stays. Always.
 
 Dreams do not disappear. They just change shape.
 

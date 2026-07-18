@@ -36,9 +36,9 @@ This is the best possible goodbye.
 5. **The Good Times** — Image+text pairs:
    - Countless places we visited.
    - Endless foods and drinks we tried.
-   - Every juice I blended for you.
-   - Every food I cooked for us.
-   - Every cake you baked for me.
+   - Every juice we blended for you.
+   - Every meal we cooked for us.
+   - Every cake we baked for us.
    - Boundless activities we did together.
    - And infinite kisses and hugs sent between us.
 6. **The Bad Times** — "We always knew there were two sides to every coin. And we had ours. But I never once wished I had weathered those storms with anyone else. Even the sea has its storms too. Does not it?" Storm rumble + window vibration.
@@ -57,7 +57,7 @@ We fought. We tried. We held on. We hoped for the best in each other.
 
 Not a single moment of it do I regret. Not one.
 
-Every effort I made. Every juice I blended. Every meal I cooked. Every cake you baked for me. Every place we went. Every kiss. Every hug. They all meant something.
+Every effort I made. Every juice we blended. Every meal I cooked. Every cake we baked for us. Every place we went. Every kiss. Every hug. They all meant something.
 
 We dreamed. I guess some dreams stay dreams.
 
