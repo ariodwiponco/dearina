@@ -178,10 +178,17 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 10. Leaving Home
 - House itself begins to fade/dissolve
-- Door appears — user steps through (or scroll past)
-- Looking back: house small on horizon
-- Stars return to sky but distant, unreachable
-- Tide sound swells
+- **Scenery:** A table — left behind. On it: her letters to you, and the ring you gave her when you proposed.
+- **Text:**
+  - *"I left everything on the table."*
+  - *"The letters you wrote me."*
+  - *"The ring I gave you."*
+  - *"All of it — still there."*
+  - *(pause)*
+  - *"Because some things aren't meant to be carried forward."*
+  - *"They're meant to be left where they belong."*
+- Visual: camera lingers on the table. Then slowly pulls back. House recedes, door frame appears. Steps through.
+- Tide sound swells gently. Stars visible again — distant but present.
 
 ### 11. Closing
 - Back to night sky
