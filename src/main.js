@@ -10,7 +10,8 @@ import { initStar } from './js/star.js'
 import { initSparkles } from './js/sparkles.js'
 import { initOcean } from './js/ocean.js'
 import { initProgress } from './js/progress.js'
-import { initSound } from './js/sound.js'
+import { initMusic } from './js/music.js'
+import { initTouches } from './js/touches.js'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -26,7 +27,8 @@ initGate(() => {
   initSparkles()
   initOcean()
   initProgress()
-  initSound()
+  initMusic()
+  initTouches()
 
   gsap.fromTo('.opening-title', { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 2.2, ease: 'power3.out', delay: 0.3 })
   gsap.fromTo('.scroll-hint', { opacity: 0 }, { opacity: 0.5, duration: 1.4, delay: 2 })

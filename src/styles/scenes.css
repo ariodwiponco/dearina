@@ -169,3 +169,34 @@
 .archive-link a { font-family: var(--serif); font-style: italic; font-size: 0.95rem; color: rgba(232,216,240,0.5); text-decoration: none; border-bottom: 1px solid rgba(232,216,240,0.2); transition: color 0.3s, border-color 0.3s; }
 .archive-link a:hover { color: var(--purple); border-color: var(--purple); }
 .colophon { margin-top: 2.2rem; font-size: 0.7rem; letter-spacing: 0.2em; opacity: 0.3; }
+
+
+/* ————— living touches ————— */
+.star-drift { position: fixed; inset: 0; pointer-events: none; z-index: 3; overflow: hidden; }
+.drift-star { position: absolute; top: -40px; width: 16px; height: 16px; animation: drift-down linear forwards; }
+.drift-star svg { width: 100%; fill: var(--purple); }
+@keyframes drift-down { 0% { transform: translateY(-40px) rotate(0deg); } 100% { transform: translateY(110vh) rotate(340deg); } }
+
+.stardust { position: fixed; width: 5px; height: 5px; border-radius: 50%; background: radial-gradient(circle, rgba(232,216,240,0.9), rgba(201,177,208,0)); pointer-events: none; z-index: 950; transform: translate(-50%,-50%); animation: dust-fade 1.3s ease-out forwards; }
+@keyframes dust-fade { 0% { opacity: 0.9; transform: translate(-50%,-50%) scale(1); } 100% { opacity: 0; transform: translate(-50%,-90%) scale(0.2); } }
+
+.burst-star { position: fixed; width: 13px; height: 13px; pointer-events: none; z-index: 960; transform: translate(-50%,-50%); animation: burst-fly 2.3s cubic-bezier(0.16,1,0.3,1) forwards; }
+.burst-star svg { width: 100%; fill: var(--purple); filter: drop-shadow(0 0 6px rgba(201,177,208,0.8)); }
+@keyframes burst-fly { 0% { opacity: 1; transform: translate(-50%,-50%) rotate(0); } 100% { opacity: 0; transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) rotate(var(--rot)) scale(0.4); } }
+
+.scene-engagement.heartbeat .kneel-wrap { animation: heart-pulse 1.6s ease-in-out 2; }
+@keyframes heart-pulse { 0%,100% { transform: scale(1); } 30% { transform: scale(1.035); } 55% { transform: scale(1); } 75% { transform: scale(1.02); } }
+
+/* opening title shimmer */
+.opening-title { position: relative; }
+.opening-title::after { content: ''; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgba(254,247,255,0.25) 50%, transparent 70%); background-size: 220% 100%; -webkit-background-clip: text; background-clip: text; animation: title-shimmer 7s ease-in-out infinite; pointer-events: none; }
+@keyframes title-shimmer { 0%, 60%, 100% { background-position: 120% 0; } 30% { background-position: -60% 0; } }
+
+/* letter paper: vintage edge */
+.letter-paper { background-image: linear-gradient(180deg, rgba(201,177,208,0.06) 0, transparent 8px), repeating-linear-gradient(180deg, transparent 0 31px, rgba(45,27,78,0.05) 31px 32px); }
+.letter-paper::before { content: ''; position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; border: 1px solid rgba(201,177,208,0.28); border-radius: 5px; pointer-events: none; }
+.letter-paper { position: relative; }
+
+/* gate: breathing prompt */
+.gate-card { animation: card-breathe 5s ease-in-out infinite; }
+@keyframes card-breathe { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
