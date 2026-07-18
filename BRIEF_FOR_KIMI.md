@@ -43,7 +43,7 @@ This is the best possible goodbye.
    - And infinite kisses and hugs sent between us.
 6. **The Bad Times** — "We always knew there were two sides to every coin. And we had ours. But I never once wished I had weathered those storms with anyone else. Even the sea has its storms too. Does not it?" Storm rumble + window vibration.
 7. **The Turn** — "After every storm, we rebuilt. But the waves kept coming. And slowly the shore started changing shape." → "Air laut surut pasang, tapi rasanya akan selalu sama" → "It used to be a comfort. Now it is the saddest truth I know."
-8. **She Leaves First** — "You left. More than once. I do not remember how many times now." → "I do not think you wanted to go. I think you just needed to. And maybe that was best for both of us."
+8. **She Leaves First** — "There were times we drifted apart. More than once. I lost count after a while. Not because we stopped loving each other. But because some distances grow whether you want them to or not." → "I do not think either of us wanted it to end. I think we just ran out of ways to find each other again. And maybe that is okay."
 9. **Leaving Home** — Table scene: your letter + engagement ring. "I left everything on the table. The letter I wrote you. The ring I gave you. All of it. Still there. Some things are not meant to be carried forward. They are meant to be left where they belong."
 10. **Closing / The Letter** — Clickable folded letter. Paper crackle on open. Full text:
 

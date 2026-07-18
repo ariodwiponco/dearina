@@ -142,17 +142,16 @@ Storm rumble. Window vibration. Rain streaks. Fades into stillness.
 
 ### 8. She Leaves First
 
-*"You left."*
-*"More than once. I do not remember how many times now."*
-*"Not because I stopped caring."*
-*"But because counting feels like keeping score."*
-*"And this was never a game."*
+*"There were times we drifted apart."*
+*"More than once. I lost count after a while."*
+*"Not because we stopped loving each other."*
+*"But because some distances grow whether you want them to or not."*
 
 *(pause)*
 
-*"I do not think you wanted to go."*
-*"I think you just needed to."*
-*"And maybe that was best for both of us."*
+*"I do not think either of us wanted it to end."*
+*"I think we just ran out of ways to find each other again."*
+*"And maybe that is okay."*
 
 One origami star fallen on the floor. Gray sky. Silence.
 
