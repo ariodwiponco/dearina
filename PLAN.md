@@ -114,14 +114,14 @@ TBD — hex codes to be defined per section during design phase.
 - Hover/tap wiggle on photos
 - Masonry or varied grid — photos sized by importance
 - Each pair has its own layout (some full-bleed, some split, some grid) — never repetitive
-- Still warm, but energetic
 
-### 6. Letters
-- Room quiets — one spotlight on a table
-- Folded paper letter (CSS paper fold animation)
-- Click/tap to unfold — reveals paragraphs one by one
-- Handwritten font (Caveat) on textured paper background
-- Multiple letters possible (swipe/scroll between them)
+### 6. The Bad Times (Acknowledgment)
+- Acknowledging that not everything was perfect
+- A brief, honest section — not dwelling, but honoring that we faced storms together
+- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
+- Tone: honest, gentle — not bitter or blaming
+- Visual shift: room dims slightly, sea outside becomes more turbulent
+- Transition into The Turn — this is the bridge
 - **Content:** TBD (your letter to Ina)
 
 ### 7. The Turn
