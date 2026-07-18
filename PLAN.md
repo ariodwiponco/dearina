@@ -67,11 +67,17 @@ TBD — hex codes to be defined per section during design phase.
 - Password: `251101` (her birthday, 6 digits)
 - On success: gentle dissolve into the star field
 
-### 2. Opening: Stars
-- Full deep night sky background (CSS gradient or subtle particles)
-- Origami stars (SVG or CSS paper-textured shapes) scattered, twinkling slowly
-- Title text centered: "Dearina"
-- Subtitle / quote appears on scroll
+### 2. Opening — Stars
+- Full night sky, origami stars twinkling
+- Text appears line by line (typewriter or fade):
+  - *"Dear Ina,"*
+  - *(pause)*
+  - *"You'll always be the dream I always tried to reach."*
+  - *"But I think..."*
+  - *"I've fallen among the stars while trying."*
+- Stars glow brighter on "fallen among the stars"
+- Soft, slow pace — this is the first breath of the story
+- Scroll triggers transition to dawn (Section 3)
 
 ### 3. The Beginning
 - Night sky transitions to dawn (color gradient shift)
