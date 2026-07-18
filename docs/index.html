@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dear Ina — a cinematic memorial." />
+  <title>Dear Ina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script type="module" crossorigin src="./assets/index-Yu1kgIZo.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BuUBuHVv.css">
+</head>
+<body>
+  <div id="root">
+    <div class="noise"></div>
+    <div class="vignette"></div>
+
+    <!-- gate -->
+    <section id="gate" class="gate">
+      <div class="gate-orb"></div>
+      <div class="gate-card">
+        <p class="gate-prompt">kapan rumah ini menjadi milik kita berdua?</p>
+        <input id="pass-input" type="password" inputmode="numeric" maxlength="6" placeholder="••••••" />
+        <button id="pass-btn" class="btn-enter">buka</button>
+        <p id="pass-error" class="gate-error">bukan itu</p>
+      </div>
+    </section>
+
+    <!-- main stage -->
+    <main id="stage" class="stage" aria-hidden="true">
+      <!-- hero -->
+      <section id="hero" class="scene scene-hero" data-theme="deep">
+        <canvas id="tide-canvas"></canvas>
+        <div class="hero-copy">
+          <div class="eyebrow">untuk seseorang yang pernah</div>
+          <h1 class="hero-title">Dear Ina</h1>
+          <div class="hero-tagline"></div>
+          <div class="scroll-orb">
+            <span class="orb-dot"></span>
+            <span class="orb-line"></span>
+            <span class="orb-label">scroll perlahan</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- once upon -->
+      <section id="once" class="scene scene-once" data-theme="warm">
+        <div class="scene-bg"></div>
+        <div class="container">
+          <div class="chapter-mark">I</div>
+          <h2 class="scene-title">Once upon a time</h2>
+          <div class="scene-text">
+            <p>Kita berkenalan pada 2019, atau mungkin dunia memperkenalkan kita jauh sebelum kita siap.</p>
+            <p>Aku menghubungimu lagi di 2022. Udara terasa berbeda — lebih ringan, seperti saat air laut mulai pasang.</p>
+          </div>
+          <div class="photo-reveal photo-1">
+            <div class="photo-caption">2019 — sebelum kita tahu apa artinya pulang.</div>
+            <img src="/images/placeholder-1.jpg" alt="placeholder" />
+          </div>
+        </div>
+      </section>
+
+      <!-- good times -->
+      <section id="good" class="scene scene-good" data-theme="play">
+        <div class="scene-bg"></div>
+        <div class="container">
+          <div class="chapter-mark">II</div>
+          <h2 class="scene-title">The good times</h2>
+          <div class="scene-text">
+            <p>Ada pesan-pesan kecil yang membuatku tersenyum, lelucon dalam yang hanya kita mengerti, dan momen-momen biasa yang terasa seperti rumah karena kamu ada di sana.</p>
+          </div>
+          <div class="gallery">
+            <div class="photo-card"><img src="/images/placeholder-2.jpg" alt="placeholder" /></div>
+            <div class="photo-card"><img src="/images/placeholder-3.jpg" alt="placeholder" /></div>
+            <div class="photo-card"><img src="/images/placeholder-4.jpg" alt="placeholder" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- letter -->
+      <section id="letter" class="scene scene-letter" data-theme="calm">
+        <div class="scene-bg"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">III</div>
+          <h2 class="scene-title">A letter I never sent</h2>
+          <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-paper">
+              <p class="paper-line">Ina,</p>
+              <p class="paper-line">Aku menjaga rumah ini tetap hangat setiap kali kamu pergi.</p>
+              <p class="paper-line">Bukan karena aku mengharapmu kembali, tapi karena sebagian dari diriku masih ingin kamu merasa diterima, bahkan dari jauh.</p>
+              <p class="paper-line">Aku sedang belajar bahwa cinta bisa tulus dan tetap tidak cukup.</p>
+              <p class="paper-line">Bahwa bertahan bisa menjadi keberanian, dan melepaskan juga bisa begitu.</p>
+              <p class="paper-line">Aku harap air laut membawamu ketenangan. Aku harap kamu menemukan rumah yang tidak perlu dibujuk.</p>
+              <p class="paper-line signoff">untuk selamanya, dengan cara yang sunyi</p>
+            </div>
+            <div class="envelope-body"></div>
+            <button class="btn-fold" id="letter-toggle">buka surat</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- three goodbyes -->
+      <section id="goodbyes" class="scene scene-goodbyes" data-theme="cool">
+        <div class="scene-bg"></div>
+        <div class="container">
+          <div class="chapter-mark">IV</div>
+          <h2 class="scene-title">Three goodbyes</h2>
+          <div class="scene-text">
+            <p>Kamu pergi tiga kali. Yang pertama terasa seperti kejutan, yang kedua seperti pola, yang ketiga seperti gelombang yang perlahan kembali ke laut.</p>
+            <p>Aku tetap tinggal, bukan karena aku tidak mengerti, tapi karena aku masih mengucapkan terima kasih.</p>
+          </div>
+          <div class="photo-reveal photo-5">
+            <div class="photo-caption">Kursi itu tetap hangat untuk sementara waktu.</div>
+            <img src="/images/placeholder-5.jpg" alt="placeholder" />
+          </div>
+        </div>
+      </section>
+
+      <!-- release -->
+      <section id="release" class="scene scene-release" data-theme="release">
+        <div class="scene-bg"></div>
+        <canvas id="star-canvas"></canvas>
+        <div class="container">
+          <div class="chapter-mark">V</div>
+          <h2 class="scene-title">Letting go</h2>
+          <div class="scene-text">
+            <p>Beberapa cerita berakhir dengan bintang, bukan badai.</p>
+            <p>Ketuk bintang origami di bawah ini, lipat, dan lepaskan.</p>
+          </div>
+          <div class="star-stage" id="star-stage">
+            <div class="origami-star" id="origami-star" role="button" tabindex="0" aria-label="Lepaskan bintang origami">
+              <svg viewBox="0 0 100 100">
+                <polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" />
+              </svg>
+            </div>
+          </div>
+          <div class="release-note" id="release-note">
+            Bintang itu telah pergi ke mana arus membawanya.
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Dear Ina · made quietly · 2026</p>
+      </footer>
+    </main>
+  </div>
+
+</body>
+</html>
