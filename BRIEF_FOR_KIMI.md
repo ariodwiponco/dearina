@@ -1,85 +1,85 @@
-# Dearina — Brief buat Kimi K3
+# Dearina — Brief for Kimi K3
 
-> Ini bukan instruksi kaku. Ini adalah gambaran dari diskusi aku sama pemilik cerita.
-> Kamu bebas pake tech stack apa aja, ubah approach, kasih ide baru — yang penting hasilnya memorable.
-> Aku kasih bahan-bahannya, kimi yang masak.
+> This is not a rigid instruction. This is the vision from a conversation with the story's owner.
+> You're free to use any tech stack, change approaches, suggest new ideas — as long as the result is memorable.
+> We give you the ingredients, you cook the meal.
 
-## Cerita Besar
+## The Big Story
 
-Website ini untuk sebuah hubungan yang baru saja berakhir. Bukan website sedih, tapi website yang merayakan perjalanan — mulai dari mimpi, membangun rumah bersama, saat-saat bahagia, sampai ombak surut dan pergi.
+A website for a relationship that just ended. Not a sad website — a website that celebrates the journey: from dreams, to building a home together, to happy times, to the tide receding and letting go.
 
-Ini adalah **pamitan terbaik** yang bisa dibuat.
+This is **the best possible goodbye.**
 
-## Core Metaphor
+## Core Metaphors
 
-1. **Bintang origami** — awalnya ada bintang-bintang kertas. Dia adalah *dream girl*. Hubungan dimulai dari mimpi.
-2. **Membangun rumah** — rumah yang diimpikan bersama. Setiap scroll, rumah diisi satu per satu (meja, lampu, foto di dinding, tanaman). Rumah ini bukan rumah beneran — tapi *home*, tempat aman.
-3. **Air laut surut pasang** — *"Coming air laut surut pasang, tapi rasanya akan selalu sama."* Ombak visual yang jadi tanda perubahan. Pasang surut hubungan.
-4. **Dia pergi duluan** — kamar masih sama, tapi dia enggak ada. Satu bintang origami jatuh di lantai.
-5. **Aku ikut pergi** — rumah ditinggal. Layar menunjukkan pintu terbuka, rumah mengecil di kejauhan.
-6. **Bintang terakhir dilepas** — satu bintang origami muncul, disentuh. Dia melipat sendiri, lalu terbang ke langit malam.
+1. **Origami stars** — starts with paper stars in the night sky. She was a *dream girl*. The relationship began as a dream.
+2. **Building a home** — the home they dreamed of together. Each scroll fills the room piece by piece (a table, a lamp, photos on the wall, plants). Not a literal house — a *home*, a safe place.
+3. **The tide ebbs and flows** — *"Coming air laut surut pasang, tapi rasanya akan selalu sama."* (The sea tide comes and goes, but the feeling stays the same.) Visual waves signal change. The relationship's ebb and flow.
+4. **She leaves first** — the room is still there, but she isn't. One origami star fallen on the floor.
+5. **I follow — leaving home** — the house is left behind. The screen shows an open door, the house shrinking on the horizon.
+6. **The last star released** — one origami star appears. Touched, it folds itself, then flies into the night sky.
 
-## Aturan Emosi
+## Emotional Rules
 
-- **Dia adalah dream girl** — ada nuansa kagum, lembut. Bukan sedih berlebihan.
-- **Fun di saat baik** — animasi playful, bounce, wiggle. Boleh lucu.
-- **Berat di saat pergi** — bukan dramatis, tapi *sunyi*. Negative space. Hening.
-- **Akhir itu melepas, bukan melupakan** — damai, bukan pahit.
+- **She is a dream girl** — awe, tenderness. Not exaggerated sadness.
+- **Fun during the good times** — playful animations, bounce, wiggle. Humor allowed.
+- **Heavy during departure** — not dramatic, but *quiet*. Negative space. Stillness.
+- **The ending is release, not forgetting** — peaceful, not bitter.
 
-## Warna
+## Color
 
-File `COLORS.md` ada palet lengkap per section. Tapi intinya:
-- **Ungu lembut (#C9B1D0)** adalah warna kesukaan dia. Muncul di setiap section — dari awal sampai akhir. Dia tidak pernah hilang sepenuhnya.
-- Awal: gelap ke terang. Tengah: hangat. Akhir: kembali ke gelap.
+Full palette per section in `COLORS.md`. The key:
+- **Soft purple (#C9B1D0)** — her favorite color. Appears in every section from start to end. She never fully disappears.
+- Arc: dark → light → warm → dark again.
 
-Tip: Kimi bisa explore variasi ungu yang berbeda di tiap section. Tapi thread ungunya harus tetap terasa.
+Feel free to explore purple variations per section. But the purple thread must remain.
 
-## Yang Kami Sudah Sepakat
+## What We've Agreed
 
-| Item | Keputusan | Tapi... |
-|------|-----------|---------|
-| Font | Cormorant Garamond (heading), Inter (body), Caveat (surat) | Ganti kalau nemu yang lebih cocok |
-| Surat interaktif | Lipat/buka kertas, font handwriting | Formatnya bisa beda |
-| Akhir interaktif | Bintang origami yang terbang setelah disentuh | Bisa diganti kalau punya ide lebih kuat |
-| Loading state | Title card "Dearina" fade-in, 3 bintang redup | Suka-suka kimi |
-| Layout per section | Unik semua (ada split, masonry, widescreen, negative space, dollhouse) | Bebas explore asal setiap section beda vibe |
-| Mobile-first | Iya, duluan HP | Desktop tetap harus cantik |
+| Item | Decision | But... |
+|------|----------|--------|
+| Fonts | Cormorant Garamond (headings), Inter (body), Caveat (letters) | Change if you find something better |
+| Interactive letter | Fold/unfold paper, handwritten font | Different format is fine |
+| Interactive ending | Origami star that flies away on tap | Replace if you have a stronger idea |
+| Loading state | Title card "Dearina" fade-in, 3 dim stars | Your interpretation |
+| Unique layout per section | Split, masonry, widescreen, negative space, dollhouse cross-section | Explore freely, each section should feel distinct |
+| Mobile-first | Yes, phone first | Desktop must still look beautiful |
 
 ## Tech Stack
 
-Bebas. Bisa:
-- HTML/CSS/JS murni (yang direncanain)
+Free choice. Options:
+- Plain HTML/CSS/JS (planned)
 - Astro, Svelte, Vue, React — whatever
-- Canvas, WebGL kalau mau efek bintang keren
-- Tailwind, GSAP, anime.js — silakan
+- Canvas, WebGL for star effects
+- Tailwind, GSAP, anime.js — go ahead
 
-**Tapi ada syarat:**
-- Harus loading cepet di HP (Lighthouse Performance 85+ minimum)
-- Animasi smooth, no jank
+**Requirements:**
+- Fast loading on mobile (Lighthouse Performance 85+ minimum)
+- Smooth animations, no jank
 - Password protected (pass: 251101)
-- Hosting di GitHub Pages → `dearina.github.io`
-- Semua foto nanti diisi manual (kasih placeholder dulu)
+- Hosted on GitHub Pages → `dearina.github.io`
+- Photos added later — use placeholders for now
 
-## Yang No Go
+## No-Go
 
-- Musik autoplay — harus user klik play dulu
-- Animasi lebay di bagian awal/akhir — jaga ketenangan
-- Framework berat (Next.js, Gatsby, etc.) — gak cocok buat GH Pages
-- Efek yang butuh plugin/library besar demi satu animasi kecil
+- Autoplay music — user must click play first
+- Over-the-top animations in early/late sections — keep it calm where appropriate
+- Heavy frameworks (Next.js, Gatsby, etc.) — wrong for GH Pages
+- Large library for one small animation
 
-## Challenge buat Kimi
+## Challenge for Kimi
 
-Ini proyek personal yang penting banget buat pemiliknya. Jadi tolong:
-- **Kasih ide di luar yang sudah ditulis** — kalau nemu approach yang lebih bagus, sampaikan.
-- **Push limits** — jangan cuma bikin "biasa". Tapi tetap jaga performa dan rasa.
-- **Explain kenapa** pilih sesuatu — biar kita ngerti dan bisa diskusi.
-- **Tanya** kalau ada yang kurang jelas.
+This is a deeply personal project for its owner. So please:
+- **Suggest ideas beyond what's written** — if you find a better approach, say it.
+- **Push limits** — don't just make something "decent." Keep performance and feeling balanced.
+- **Explain your reasoning** — so we can discuss and iterate.
+- **Ask** if anything is unclear.
 
-Kami kasih bahan, kimi yang masak. Kalau masakannya enak — kita puji. Kalau kurang cocok — kita omongin, iterasi lagi, sampai jadi.
+We give ingredients, you cook. If it's delicious — we praise. If something's off — we talk, iterate, until it's right.
 
-Selamat memasak 🍳
+Happy cooking 🍳
 
 ---
 
-_Dibuat: 2026-07-18_
-_Dari: percakapan antara Ario & Hermes Agent_
+_Created: 2026-07-18_
+_From: conversations between Ario & Hermes Agent_
