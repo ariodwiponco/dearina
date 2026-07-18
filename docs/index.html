@@ -3,285 +3,293 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dear Ina — a memorial for what was, and a quiet goodbye." />
+  <meta name="description" content="Dear Ina. A quiet place for what we built." />
   <title>Dear Ina</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@200;300;400&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script type="module" crossorigin src="./assets/index-CSTdwo-Q.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BFvZSUc8.css">
+  <script type="module" crossorigin src="./assets/index-CI9O85Mm.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B_B86PpX.css">
 </head>
 <body>
-  <div id="root">
-    <div class="noise"></div>
-    <div class="vignette"></div>
-    <div id="bg-canvas"></div>
-    <div class="progress-bar"><span class="progress-fill"></span></div>
+  <div id="bg-wash"></div>
+  <canvas id="starfield"></canvas>
+  <div class="grain"></div>
+  <div class="progress-bar"><span class="progress-fill"></span></div>
 
-    <section id="gate" class="gate">
-      <div class="gate-orb"></div>
-      <div class="gate-card">
-        <h1 class="gate-title">Dear Ina</h1>
-        <p class="gate-hint">DDMMYYYY</p>
-        <input id="pass-input" type="password" inputmode="numeric" maxlength="8" placeholder="DDMMYYYY" />
-        <button id="pass-btn" class="btn-enter">enter</button>
-        <p id="pass-error" class="gate-error">not quite</p>
+  <section id="gate" class="gate">
+    <div class="gate-stars"></div>
+    <div class="gate-card">
+      <h1 class="gate-title">Dear Ina</h1>
+      <p class="gate-hint">ddmmyyyy</p>
+      <input id="pass-input" type="password" inputmode="numeric" maxlength="8" autocomplete="off" placeholder="········" />
+      <button id="pass-btn" class="btn-enter">open</button>
+      <p id="pass-error" class="gate-error">that is not the date</p>
+    </div>
+  </section>
+
+  <main id="stage" class="stage" aria-hidden="true">
+    <button id="sound-toggle" class="sound-toggle muted" aria-label="Toggle ambient sound"><span class="wave-icon"><i></i><i></i><i></i></span></button>
+
+    <section id="opening" class="scene scene-opening">
+      <div class="container narrow center">
+        <h1 class="opening-title">Dear Ina</h1>
+        <div class="typed-block opening-lines" data-typed>
+          <p>You will always be the dream I always tried to reach.</p>
+          <p>But I think...</p>
+          <p>I have fallen among the stars while trying.</p>
+        </div>
+        <div class="scroll-hint"><span class="hint-line"></span><span>scroll gently</span></div>
       </div>
     </section>
 
-    <main id="stage" class="stage" aria-hidden="true">
-      <button id="sound-toggle" class="sound-toggle" aria-label="Toggle ambient sound">
-        <span class="sound-icon">♫</span>
-        <span class="sound-label">sound</span>
-      </button>
-
-      <section id="hero" class="scene scene-dark">
-        <canvas id="tide-canvas"></canvas>
-        <div class="hero-copy">
-          <div class="hero-title">Dear Ina</div>
-          <div class="hero-tagline"></div>
-          <div class="scroll-orb"><span class="orb-line"></span><span class="orb-label">scroll gently</span></div>
-        </div>
-      </section>
-
-      <section id="opening" class="scene scene-dark">
-        <div class="container narrow">
+    <section id="beginning" class="scene scene-beginning">
+      <div class="dawn-glow"></div>
+      <div class="container">
+        <div class="chapter-mark">chapter one</div>
+        <h2 class="scene-title">The Beginning</h2>
+        <div class="beginning-grid">
           <div class="typed-block" data-typed>
-            <p>Dear Ina,</p>
-            <p>You will always be the dream I always tried to reach.</p>
-            <p>But I think...</p>
-            <p>I have fallen among the stars while trying.</p>
+            <p>I asked God for a partner.</p>
+            <p>And He really sent you.</p>
+            <p>Like you descended from heaven.</p>
+          </div>
+          <div class="staircase-wrap" id="staircase">
+            <svg viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg" aria-label="He waits below the stairs, she stands above">
+              <g class="stairs">
+                <rect x="200" y="250" width="160" height="18" rx="2"/>
+                <rect x="220" y="215" width="140" height="18" rx="2"/>
+                <rect x="240" y="180" width="120" height="18" rx="2"/>
+                <rect x="260" y="145" width="100" height="18" rx="2"/>
+                <rect x="280" y="110" width="80" height="18" rx="2"/>
+                <rect x="300" y="75" width="60" height="18" rx="2"/>
+              </g>
+              <g class="figure-him">
+                <circle cx="70" cy="222" r="13"/>
+                <path d="M70 235 q-12 22 -8 45 h16 q4 -23 -8 -45 z"/>
+              </g>
+              <g class="figure-her">
+                <circle cx="318" cy="38" r="11"/>
+                <path d="M318 49 q-10 16 -7 26 h14 q3 -10 -7 -26 z"/>
+              </g>
+              <g class="stair-glow"><circle cx="318" cy="38" r="26"/></g>
+            </svg>
           </div>
         </div>
-      </section>
+        <div class="typed-block timeline-lines" data-typed>
+          <p>I first saw you in 2019.</p>
+          <p>But I was not ready. I had someone else.</p>
+          <p>Still. I could not forget your face.</p>
+          <p>In 2022, I finally gathered the courage to reach out.</p>
+        </div>
+        <div class="slide-card slide-right">
+          <div class="photo-reveal">
+            <img src="./images/placeholder-1.jpg" alt="our first photo" loading="lazy" />
+            <div class="photo-caption">2019, before we knew</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section id="beginning" class="scene scene-light">
-        <div class="container">
-          <div class="diary-wrap">
-            <div class="diary-text">
-              <div class="chapter-mark">I</div>
-              <h2 class="scene-title">The Beginning</h2>
-              <div class="typed-block" data-typed>
-                <p>I asked God for a partner.</p>
-                <p>And He really sent you.</p>
-                <p>Like you descended from heaven.</p>
-                <p>I first saw you in 2019.</p>
-                <p>But I was not ready. I had someone else.</p>
-                <p>Still. I could not forget your face.</p>
-                <p>In 2022, I finally gathered the courage to reach out.</p>
-              </div>
+    <section id="moving" class="scene scene-moving">
+      <div class="container narrow center">
+        <div class="chapter-mark">chapter two</div>
+        <h2 class="scene-title">Moving to the House</h2>
+        <div class="house-wrap" id="house-wrap">
+          <svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" aria-label="Two figures walking toward an empty house">
+            <g class="house-body">
+              <rect x="250" y="120" width="130" height="110" rx="3"/>
+              <polygon points="240,120 315,58 390,120"/>
+              <rect x="298" y="168" width="34" height="62" rx="17" class="house-door"/>
+              <rect x="264" y="140" width="26" height="22" rx="3" class="house-window"/>
+              <rect x="342" y="140" width="26" height="22" rx="3" class="house-window"/>
+            </g>
+            <g class="walk-him"><circle cx="60" cy="196" r="12"/><path d="M60 208 q-11 20 -7 34 h14 q4 -14 -7 -34 z"/></g>
+            <g class="walk-her"><circle cx="98" cy="198" r="10"/><path d="M98 208 q-9 18 -6 32 h12 q3 -14 -6 -32 z"/></g>
+            <line x1="20" y1="232" x2="400" y2="232" class="ground"/>
+          </svg>
+        </div>
+        <div class="typed-block center-text" data-typed>
+          <p class="whisper">A love you have never experienced before, right?</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="building" class="scene scene-building">
+      <div class="container">
+        <div class="chapter-mark">chapter three</div>
+        <h2 class="scene-title">Building Home</h2>
+        <div class="room" id="room">
+          <div class="room-window"><div class="sea"></div><div class="sea-sun"></div></div>
+          <div class="item item-curtains"></div>
+          <div class="item item-table"></div>
+          <div class="item item-chair"></div>
+          <div class="item item-lamp"><span class="lamp-light"></span></div>
+          <div class="item item-shelf"></div>
+          <div class="item item-stars">
+            <svg viewBox="0 0 100 100"><polygon points="50,5 61,38 95,38 67,59 78,92 50,71 22,92 33,59 5,38 39,38"/></svg>
+            <svg viewBox="0 0 100 100"><polygon points="50,5 61,38 95,38 67,59 78,92 50,71 22,92 33,59 5,38 39,38"/></svg>
+          </div>
+          <div class="item item-photos"></div>
+          <div class="item item-plant"></div>
+          <div class="room-warmth"></div>
+        </div>
+        <div class="typed-block center-text" data-typed>
+          <p class="indo">Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan.</p>
+          <p class="indo">Rumah aku dan kamu memang tidak sempurna.</p>
+          <p class="indo">Tapi kita sama-sama mau mengisinya.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="good" class="scene scene-good">
+      <div class="container">
+        <div class="chapter-mark">chapter four</div>
+        <h2 class="scene-title">The Good Times</h2>
+        <div class="masonry" id="masonry">
+          <figure class="mcard tilt-l"><img src="./images/placeholder-2.jpg" alt="" loading="lazy"/><figcaption>Countless places we visited.</figcaption></figure>
+          <figure class="mcard tilt-r"><img src="./images/placeholder-3.jpg" alt="" loading="lazy"/><figcaption>Endless foods and drinks we tried.</figcaption></figure>
+          <figure class="mcard tilt-l tall"><img src="./images/placeholder-4.jpg" alt="" loading="lazy"/><figcaption>Every juice we blended together.</figcaption></figure>
+          <figure class="mcard tilt-r"><img src="./images/placeholder-5.jpg" alt="" loading="lazy"/><figcaption>Every meal we cooked for each other.</figcaption></figure>
+          <figure class="mcard tilt-l"><img src="./images/placeholder-2.jpg" alt="" loading="lazy"/><figcaption>Every cake we baked for us.</figcaption></figure>
+          <figure class="mcard tilt-r tall"><img src="./images/placeholder-3.jpg" alt="" loading="lazy"/><figcaption>Boundless activities we did together.</figcaption></figure>
+          <figure class="mcard tilt-l"><img src="./images/placeholder-4.jpg" alt="" loading="lazy"/><figcaption>And infinite kisses and hugs sent between us.</figcaption></figure>
+          <figure class="mcard tilt-r"><img src="./images/placeholder-5.jpg" alt="" loading="lazy"/><figcaption>Every date plan we created.</figcaption></figure>
+          <figure class="mcard tilt-l"><img src="./images/placeholder-2.jpg" alt="" loading="lazy"/><figcaption>Every sunrise we chased.</figcaption></figure>
+          <figure class="mcard tilt-r"><img src="./images/placeholder-3.jpg" alt="" loading="lazy"/><figcaption>Every train we almost missed.</figcaption></figure>
+          <figure class="mcard tilt-l"><img src="./images/placeholder-4.jpg" alt="" loading="lazy"/><figcaption>Every song we sang in the car.</figcaption></figure>
+        </div>
+        <p class="alive-line">We were so alive, were not we?</p>
+      </div>
+    </section>
+
+    <section id="engagement" class="scene scene-engagement">
+      <div class="golden-burst"></div>
+      <canvas id="sparkle-canvas"></canvas>
+      <div class="container narrow center">
+        <div class="kneel-wrap" id="kneel-wrap">
+          <svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" aria-label="He kneels, she reaches out her hand">
+            <g class="kneel-him">
+              <circle cx="110" cy="120" r="13"/>
+              <path d="M110 133 q-14 14 -12 34 l10 2 q4 -16 10 -22 l14 22 10 -4 q-6 -22 -32 -32 z"/>
+            </g>
+            <g class="stand-her">
+              <circle cx="196" cy="84" r="12"/>
+              <path d="M196 96 q-11 24 -8 62 h16 q3 -38 -8 -62 z"/>
+              <path d="M188 112 q-24 8 -44 22" class="her-arm"/>
+            </g>
+            <g class="ring-spark"><circle cx="138" cy="130" r="4"/><circle cx="138" cy="130" r="9" class="ring-halo"/></g>
+          </svg>
+        </div>
+        <div class="typed-block center-text" data-typed>
+          <p class="vow">And then I asked you to stay forever.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bad" class="scene scene-bad">
+      <div class="rain"></div>
+      <div class="container narrow">
+        <div class="chapter-mark">chapter five</div>
+        <h2 class="scene-title">The Bad Times</h2>
+        <div class="typed-block" data-typed>
+          <p>We always knew there were two sides to every coin.</p>
+          <p>And we had ours.</p>
+          <p>But I never once wished I had weathered those storms with anyone else.</p>
+          <p>Even the sea has its storms too. Does not it?</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="turn" class="scene scene-turn">
+      <canvas id="ocean-canvas"></canvas>
+      <div class="container narrow">
+        <div class="chapter-mark">chapter six</div>
+        <h2 class="scene-title">The Turn</h2>
+        <div class="typed-block" data-typed>
+          <p>After every storm, we rebuilt.</p>
+          <p>But the waves kept coming.</p>
+          <p>And slowly, the shore started changing shape.</p>
+          <p>Something shifted between us.</p>
+          <p>I do not know when. Or who.</p>
+          <p>But the air felt different when we were in the same room.</p>
+          <p class="indo tide-line">Air laut surut pasang, tapi rasanya akan selalu sama.</p>
+          <p>It used to be a comfort.</p>
+          <p>Now it is the saddest truth I know.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="leaves" class="scene scene-leaves">
+      <div class="container narrow center">
+        <div class="chapter-mark">chapter seven</div>
+        <h2 class="scene-title">She Leaves First</h2>
+        <div class="typed-block sparse" data-typed>
+          <p>There were times we drifted apart.</p>
+          <p>More than once. I lost count after a while.</p>
+          <p>Not because we stopped loving each other.</p>
+          <p>But because some distances grow whether you want them to or not.</p>
+          <p class="gap">I do not think either of us wanted it to end.</p>
+          <p>I think we just ran out of ways to find each other again.</p>
+          <p>And maybe that is okay.</p>
+        </div>
+        <div class="fallen-star" id="fallen-star">
+          <svg viewBox="0 0 100 100"><polygon points="50,5 61,38 95,38 67,59 78,92 50,71 22,92 33,59 5,38 39,38"/></svg>
+          <div class="star-shadow"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leaving" class="scene scene-leaving">
+      <div class="container narrow center">
+        <div class="chapter-mark">chapter eight</div>
+        <h2 class="scene-title">Leaving Home</h2>
+        <div class="doorframe" id="doorframe">
+          <div class="door-inner">
+            <div class="far-house">
+              <svg viewBox="0 0 120 90"><rect x="30" y="40" width="60" height="46" rx="2"/><polygon points="24,40 60,12 96,40"/></svg>
             </div>
-            <div class="slide-card slide-right">
-              <div class="photo-reveal">
-                <img src="./images/placeholder-1.jpg" alt="placeholder" loading="lazy" />
-                <div class="photo-caption">2019 — before we knew</div>
-              </div>
+            <div class="door-table">
+              <div class="d-table"></div>
+              <div class="d-letter"></div>
+              <div class="d-ring"></div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section id="moving" class="scene scene-light">
-        <div class="container narrow">
-          <div class="chapter-mark">II</div>
-          <h2 class="scene-title">Moving to the House</h2>
-          <div class="house-scene" id="house-scene">
-            <div class="house-illustration">
-              <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-                <rect x="110" y="80" width="80" height="70" fill="#D4C3DA" />
-                <polygon points="110,80 150,40 190,80" fill="#C9B1D0" />
-                <rect x="135" y="110" width="30" height="40" rx="15" fill="#8E7A94" />
-                <circle cx="80" cy="145" r="12" fill="#B8A2BD" />
-                <rect x="74" y="125" width="5" height="20" rx="2" fill="#8E7A94" />
-                <circle cx="220" cy="145" r="12" fill="#9E86A6" />
-                <rect x="214" y="125" width="5" height="20" rx="2" fill="#8E7A94" />
-              </svg>
-            </div>
-          </div>
-          <div class="typed-block" data-typed>
-            <p>A love you have never experienced before, right?</p>
-          </div>
+        <div class="typed-block" data-typed>
+          <p>I left everything on the table.</p>
+          <p>The letter I wrote you.</p>
+          <p>The ring I gave you.</p>
+          <p>All of it. Still there.</p>
+          <p class="gap">Some things are not meant to be carried forward.</p>
+          <p>They are meant to be left where they belong.</p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="building" class="scene scene-light">
-        <div class="container">
-          <div class="chapter-mark">III</div>
-          <h2 class="scene-title">Building Home</h2>
-          <div class="room" id="room">
-            <div class="room-window"><div class="sea"></div></div>
-            <div class="item item-table" data-item="table"></div>
-            <div class="item item-chair" data-item="chair"></div>
-            <div class="item item-lamp" data-item="lamp"></div>
-            <div class="item item-shelf" data-item="shelf"></div>
-            <div class="item item-photos" data-item="photos"></div>
-            <div class="item item-curtains" data-item="curtains"></div>
-            <div class="item item-stars" data-item="stars"></div>
-            <div class="item item-plant" data-item="plant"></div>
+    <section id="closing" class="scene scene-closing">
+      <div class="container narrow center">
+        <div class="chapter-mark">the letter</div>
+        <div class="letter-stage" id="letter-stage">
+          <div class="folded-letter" id="folded-letter" role="button" tabindex="0" aria-label="Open the letter">
+            <div class="fold-face"></div>
+            <div class="fold-seal"></div>
+            <p class="fold-hint">tap to unfold</p>
           </div>
-          <div class="typed-block" data-typed>
-            <p>Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan.</p>
-            <p>Rumah aku dan kamu memang tidak sempurna.</p>
-            <p>Tapi kita sama-sama mau mengisinya.</p>
-          </div>
+          <div class="letter-paper" id="letter-paper"></div>
         </div>
-      </section>
-
-      <section id="good" class="scene scene-play">
-        <div class="container">
-          <div class="chapter-mark">IV</div>
-          <h2 class="scene-title">The Good Times</h2>
-          <div class="good-grid" id="good-grid">
-            <div class="good-item slide-left"><span class="good-text">Countless places we visited.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-right"><span class="good-text">Endless foods and drinks we tried.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-left"><span class="good-text">Every juice we blended together.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-right"><span class="good-text">Every meal we cooked for each other.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-left"><span class="good-text">Every cake we baked for us.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-right"><span class="good-text">Boundless activities we did together.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-left"><span class="good-text">And infinite kisses and hugs sent between us.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-right"><span class="good-text">Every date plan we created.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-left"><span class="good-text">Every sunrise we chased.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-right"><span class="good-text">Every train we almost missed.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
-            <div class="good-item slide-left"><span class="good-text">Every song we sang in the car.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+        <div class="star-release" id="star-release">
+          <div class="origami-star" id="origami-star" role="button" tabindex="0" aria-label="Release the star">
+            <svg viewBox="0 0 100 100"><polygon points="50,5 61,38 95,38 67,59 78,92 50,71 22,92 33,59 5,38 39,38"/></svg>
           </div>
-          <div class="typed-block alive-line" data-typed>
-            <p>We were so alive, were not we?</p>
-          </div>
+          <p class="release-note" id="release-note">gone where the tide takes it</p>
         </div>
-      </section>
-
-      <section id="engagement" class="scene scene-play">
-        <div class="container narrow">
-          <div class="ring-burst" id="ring-burst"></div>
-          <div class="typed-block" data-typed>
-            <p>And then I asked you to stay forever.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="bad" class="scene scene-cool">
-        <div class="storm" id="storm"></div>
-        <div class="container narrow">
-          <div class="chapter-mark">V</div>
-          <h2 class="scene-title">The Bad Times</h2>
-          <div class="typed-block" data-typed>
-            <p>We always knew there were two sides to every coin.</p>
-            <p>And we had ours.</p>
-            <p>But I never once wished I had weathered those storms with anyone else.</p>
-            <p>Even the sea has its storms too. Does not it?</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="turn" class="scene scene-cool">
-        <div class="tide-wide" id="tide-wide"></div>
-        <div class="container narrow">
-          <div class="chapter-mark">VI</div>
-          <h2 class="scene-title">The Turn</h2>
-          <div class="typed-block" data-typed>
-            <p>After every storm, we rebuilt.</p>
-            <p>But the waves kept coming.</p>
-            <p>And slowly, the shore started changing shape.</p>
-            <p>Something shifted between us.</p>
-            <p>I do not know when. Or who.</p>
-            <p>But the air felt different when we were in the same room.</p>
-            <p>Air laut surut pasang, tapi rasanya akan selalu sama.</p>
-            <p>It used to be a comfort.</p>
-            <p>Now it is the saddest truth I know.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="leaves" class="scene scene-cool">
-        <div class="container narrow">
-          <div class="chapter-mark">VII</div>
-          <h2 class="scene-title">She Leaves First</h2>
-          <div class="typed-block" data-typed>
-            <p>There were times we drifted apart.</p>
-            <p>More than once. I lost count after a while.</p>
-            <p>Not because we stopped loving each other.</p>
-            <p>But because some distances grow whether you want them to or not.</p>
-            <p>I do not think either of us wanted it to end.</p>
-            <p>I think we just ran out of ways to find each other again.</p>
-            <p>And maybe that is okay.</p>
-          </div>
-          <div class="fallen-star" id="fallen-star">
-            <svg viewBox="0 0 100 100"><polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" /></svg>
-          </div>
-        </div>
-      </section>
-
-      <section id="leaving" class="scene scene-cool">
-        <div class="container narrow">
-          <div class="chapter-mark">VIII</div>
-          <h2 class="scene-title">Leaving Home</h2>
-          <div class="table-scene" id="table-scene">
-            <div class="table"></div>
-            <div class="letter-folded"></div>
-            <div class="ring"></div>
-          </div>
-          <div class="typed-block" data-typed>
-            <p>I left everything on the table.</p>
-            <p>The letter I wrote you.</p>
-            <p>The ring I gave you.</p>
-            <p>All of it. Still there.</p>
-            <p>Some things are not meant to be carried forward.</p>
-            <p>They are meant to be left where they belong.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="closing" class="scene scene-dark">
-        <canvas id="star-canvas"></canvas>
-        <div class="container narrow">
-          <div class="chapter-mark">IX</div>
-          <h2 class="scene-title">The Letter</h2>
-          <div class="envelope" id="envelope">
-            <div class="envelope-flap"></div>
-            <div class="envelope-paper">
-              <p class="paper-line">Dear Ina,</p>
-              <p class="paper-line">Time moves so fast. Does not it?</p>
-              <p class="paper-line">Four years with you. All of it. Every good day, every hard day, every laugh and every tear.</p>
-              <p class="paper-line">We fought. We tried. We held on. We hoped for the best in each other.</p>
-              <p class="paper-line">Not a single moment of it do I regret. Not one.</p>
-              <p class="paper-line">Every place we went together. Every date we planned. Every sunrise we chased. Every train we almost missed. Every song we sang in the car.</p>
-              <p class="paper-line">Every juice we blended. Every meal we cooked. Every cake we baked. Every kiss. Every hug. They all meant something.</p>
-              <p class="paper-line">We dreamed. I guess some dreams stay dreams.</p>
-              <p class="paper-line">Maybe we were not meant to stay in this universe together.</p>
-              <p class="paper-line">Do I envy the version of me in another universe who gets to keep you?</p>
-              <p class="paper-line">Of course I do.</p>
-              <p class="paper-line indo">Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu.</p>
-              <p class="paper-line indo">Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan.</p>
-              <p class="paper-line">I am not celebrating this goodbye.</p>
-              <p class="paper-line">I am honoring what we built.</p>
-              <p class="paper-line">Every corner of that home. Every star I folded for you. Every wave we weathered.</p>
-              <p class="paper-line">You were my dream, Ina.</p>
-              <p class="paper-line">I hope your beauty never fades. Not the one the world sees. The one I was lucky enough to witness. The way you smiled when we baked together. The way you looked at me when you thought I was not watching. I hope that beauty stays. Always.</p>
-              <p class="paper-line">Dreams do not disappear. They just change shape.</p>
-              <p class="paper-line">Go find your next shore, Ina.</p>
-              <p class="paper-line">I will be okay.</p>
-              <p class="paper-line">Goodbye, my dream girl.</p>
-            </div>
-            <div class="envelope-body"></div>
-            <button class="btn-fold" id="letter-toggle">open letter</button>
-          </div>
-          <div class="star-release" id="star-release">
-            <p class="release-prompt">Tap the last star and let it go.</p>
-            <div class="origami-star" id="origami-star" role="button" tabindex="0" aria-label="Release the origami star">
-              <svg viewBox="0 0 100 100"><polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" /></svg>
-            </div>
-            <div class="release-note" id="release-note">The star has gone where the tide takes it.</div>
-          </div>
-          <div class="archive-link"><a href="#" target="_blank" rel="noopener">Archive of us</a></div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <p>Dear Ina · made quietly · 2026</p>
-      </footer>
-    </main>
-  </div>
+        <div class="archive-link"><a href="#" rel="noopener">archive of us</a></div>
+        <p class="colophon">made quietly, 2026</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

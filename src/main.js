@@ -1,33 +1,33 @@
 import './styles/main.css'
 import './styles/scenes.css'
 import { initGate } from './js/gate.js'
-import { initTideCanvas } from './js/tideCanvas.js'
-import { initTypewriter } from './js/typewriter.js'
+import { initStarfield } from './js/starfield.js'
+import { initWash } from './js/wash.js'
 import { initScrollScenes } from './js/scrollScenes.js'
 import { initRoom } from './js/room.js'
 import { initLetter } from './js/letter.js'
 import { initStar } from './js/star.js'
-import { initStarCanvas } from './js/starCanvas.js'
+import { initSparkles } from './js/sparkles.js'
+import { initOcean } from './js/ocean.js'
 import { initProgress } from './js/progress.js'
 import { initSound } from './js/sound.js'
-import { initStaircase } from './js/staircase.js'
 
 gsap.registerPlugin(ScrollTrigger)
 
 initGate(() => {
-  document.body.style.overflow = 'auto'
   document.getElementById('stage').classList.add('unlocked')
-  initTideCanvas()
-  initTypewriter()
-  initStaircase()
+  document.getElementById('stage').setAttribute('aria-hidden', 'false')
+  initStarfield()
+  initWash()
   initScrollScenes()
   initRoom()
   initLetter()
   initStar()
-  initStarCanvas()
+  initSparkles()
+  initOcean()
   initProgress()
   initSound()
 
-  gsap.fromTo('#hero .hero-title', { y: 80, opacity: 0, rotateX: 15 }, { y: 0, opacity: 1, rotateX: 0, duration: 1.6, ease: 'power3.out', delay: 0.2 })
-  gsap.fromTo('#hero .scroll-orb', { opacity: 0, y: 20 }, { opacity: 0.7, y: 0, duration: 1, ease: 'power2.out', delay: 1.2 })
+  gsap.fromTo('.opening-title', { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 2.2, ease: 'power3.out', delay: 0.3 })
+  gsap.fromTo('.scroll-hint', { opacity: 0 }, { opacity: 0.5, duration: 1.4, delay: 2 })
 })

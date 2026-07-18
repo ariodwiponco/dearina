@@ -2,9 +2,8 @@ export function initProgress() {
   const fill = document.querySelector('.progress-fill')
   if (!fill) return
   window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY || window.pageYOffset
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight
-    const pct = docHeight ? (scrollTop / docHeight) * 100 : 0
-    fill.style.width = `${pct}%`
+    const top = window.scrollY
+    const max = document.documentElement.scrollHeight - window.innerHeight
+    fill.style.width = `${max ? (top / max) * 100 : 0}%`
   }, { passive: true })
 }

@@ -5,20 +5,22 @@ export function initGate(onUnlock) {
   const error = document.getElementById('pass-error')
   const PASS = '25112001'
 
-  input.focus()
+  document.body.style.overflow = 'hidden'
+  setTimeout(() => input.focus(), 600)
 
   const check = () => {
     if (input.value === PASS) {
       gate.classList.add('exit')
+      document.body.style.overflow = 'auto'
       setTimeout(() => {
         gate.style.display = 'none'
-        if (onUnlock) onUnlock()
-      }, 1100)
+        onUnlock && onUnlock()
+      }, 1500)
     } else {
       error.classList.add('show')
       input.value = ''
       input.focus()
-      setTimeout(() => error.classList.remove('show'), 1500)
+      setTimeout(() => error.classList.remove('show'), 1800)
     }
   }
 

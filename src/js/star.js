@@ -3,15 +3,16 @@ export function initStar() {
   const note = document.getElementById('release-note')
   if (!star) return
 
-  star.addEventListener('click', () => {
+  const release = () => {
     if (star.classList.contains('folding') || star.classList.contains('floating')) return
     star.classList.add('folding')
     setTimeout(() => {
       star.classList.remove('folding')
       star.classList.add('floating')
-      if (note) note.classList.add('visible')
-    }, 900)
-  })
+      note && note.classList.add('visible')
+    }, 1000)
+  }
 
-  star.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') star.click() })
+  star.addEventListener('click', release)
+  star.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); release() } })
 }
