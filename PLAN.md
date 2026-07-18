@@ -25,12 +25,12 @@
 | 2 | **Opening: Stars** | Deep night sky, scattered origami stars twinkling | Origami stars float gently, dimly lit | Dreamy, distant |
 | 3 | **The beginning** | Stars fade into warm dawn | Night → sunrise transition | Hope, hesitant joy |
 | 4 | **Building home** | Coastline, first light | **Empty room with window facing sea.** As relationship grows, we add: furniture, photos on walls, plants, warm lights. Each scroll adds something new. | Warm, growing |
-| 5 | **The good times** | Same room, vibrant | Room fully alive — colorful, sunlit, photos everywhere, playful energy | Alive, fun |
-| 6 | **Letters** | Same room, quieter | Folded paper letter on table, warm lamp light | Intimate, reflective |
-| 7 | **The turn** | Room darkens, sea outside window rises/falls faster | *Air laut surut pasang* — tide visualized erratically. Origami stars on shelf dim one by one. | Unsettling |
-| 8 | **She leaves first** | Room still there, she's gone | Window shows gray sea, empty room. One origami star left on floor. House feels hollow. | Hollow loss |
-| 9 | **Leaving home** | House fades into sea | Opening door, stepping out. House becomes small on horizon. Stars reappear but distant. | Release |
-| 10 | **Closing** | Night sky again | Origami stars scatter in wind, floating away. Final message. | Peaceful goodbye |
+| 6 | **The bad times** | Acknowledging we faced storms | Honest, brief |
+| 7 | **Letters** | Fold/unfold paper, handwritten font | Intimate, closing |
+| 8 | **The turn** | Tide rises and falls faster, room darkens | Unsettling |
+| 9 | **She leaves first** | Empty room, one fallen star | Hollow |
+| 10 | **Leaving home** | House fades, door opens, walk away | Melancholic |
+| 11 | **Closing** | Star release + letter, final moment | Peaceful goodbye |
 
 ### Key metaphor: Building home gradually
 The home section starts as an **empty room with a window overlooking the sea**. As user scrolls through this chapter, items appear one by one — a chair, a table, a lamp, photos on walls, plants, origami stars on shelves. Each item represents a memory, a moment built together. The room grows full gradually, mirroring how relationships are built piece by piece.
@@ -124,27 +124,51 @@ TBD — hex codes to be defined per section during design phase.
 - Transition into The Turn — this is the bridge
 - **Content:** TBD (your letter to Ina)
 
-### 7. The Turn
+### 6. The Bad Times (Acknowledgment)
+- Acknowledging that not everything was perfect
+- A brief, honest section — not dwelling, but honoring that we faced storms together
+- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
+- Tone: honest, gentle — not bitter or blaming
+- Visual shift: room dims slightly, sea outside becomes more turbulent
+- Transition into The Turn — this is the bridge
+
+### 6. The Bad Times (Acknowledgment)
+- Acknowledging that not everything was perfect
+- A brief, honest section — not dwelling, but honoring that we faced storms together
+- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
+- Tone: honest, gentle — not bitter or blaming
+- Visual shift: room dims slightly, sea outside becomes more turbulent
+- Transition into Letters — the apology / reflection before the turn
+
+### 7. Letters
+- This is the closing — last thing visitors read
+- Room quiet, spotlight on a table
+- Folded paper letter, click/tap to unfold
+- Handwritten font (Caveat), paper texture
+- Multiple letters possible — you write your own content later
+- After letter unfolds, the screen transitions to the Turn
+
+### 8. The Turn
 - Room darkens gradually
 - Sea outside window starts rising and falling faster (*air laut surut pasang*)
 - Origami stars on shelf dim one by one
 - Animations decelerate
 - Text appears: "Coming air laut surut pasang, tapi rasanya akan selalu sama"
 
-### 8. She Leaves First
+### 9. She Leaves First
 - Room still the same, but she's not there
 - Gray sky through window, muted colors
 - One origami star fallen on floor
 - Silence (audio fades)
 
-### 9. Leaving Home
+### 10. Leaving Home
 - House itself begins to fade/dissolve
 - Door appears — user steps through (or scroll past)
 - Looking back: house small on horizon
 - Stars return to sky but distant, unreachable
 - Tide sound swells
 
-### 10. Closing
+### 11. Closing
 - Back to night sky
 - Origami stars scatter in wind, floating away
 - Final text message
@@ -160,7 +184,8 @@ TBD — hex codes to be defined per section during design phase.
 | The beginning | Night→dawn gradient shift, photos fade-in softly | Calm, hopeful |
 | Building home | Items appear one by one, fade+drift-up, warm glow grows | Growing warmth |
 | The good times | **Playful** — photos flip-in, bounce, wiggle on hover | Fun, alive |
-| Letters | Fold/unfold paper, handwritten reveal | Intimate |
+| The bad times | Slow dim, gentle deceleration | Honest, quiet |
+| Letters | Fold/unfold paper, handwritten reveal | Intimate, closing |
 | The turn | Vignette darkens, tide speeds up, stars dim | Unsettling |
 | She leaves | Stillness — almost no animation, just emptiness | Hollow |
 | Leaving home | House dissolves, door opening, fade to horizon | Melancholic |
