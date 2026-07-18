@@ -2,6 +2,8 @@
 
 > Website for a relationship that just ended. A single-page scrolling memorial.
 > Grand design — the best possible goodbye.
+>
+> **Title: "Dear Ina"** — like the opening of a letter. Two words, not one.
 
 ## 1. Tech Stack
 - **Plain HTML + CSS + JS** (no framework)
@@ -58,10 +60,12 @@ TBD — hex codes to be defined per section during design phase.
 ## 8. Sections Detail
 
 ### 1. Password Gate
-- Full-screen dark overlay
-- Centered input, submit
-- Password: `251101`
-- Clean animation, no drama
+- Full-screen dark overlay, minimal
+- **Title: "Dear Ina"** — centered, soft fade-in
+- Subtitle: "Enter the date" or "6 digits" (subtle, small)
+- Password input: centered, clean, no drama
+- Password: `251101` (her birthday, 6 digits)
+- On success: gentle dissolve into the star field
 
 ### 2. Opening: Stars
 - Full deep night sky background (CSS gradient or subtle particles)
