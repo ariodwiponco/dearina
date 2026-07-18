@@ -134,19 +134,11 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 6. The Bad Times (Acknowledgment)
 - Acknowledging that not everything was perfect
-- A brief, honest section — not dwelling, but honoring that we faced storms together
-- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
-- Tone: honest, gentle — not bitter or blaming
-- Visual shift: room dims slightly, sea outside becomes more turbulent
-- Transition into Letters — the apology / reflection before the turn
-
-### 7. Letters
-- This is the closing — last thing visitors read
-- Room quiet, spotlight on a table
-- Folded paper letter, click/tap to unfold
-- Handwritten font (Caveat), paper texture
-- Multiple letters possible — you write your own content later
-- After letter unfolds, the screen transitions to the Turn
+- **Text:** "We acknowledged there's always two sides of a coin. But I'm always grateful that I had you in those bad times. Even the sea had its storms too, right?"
+- **Effect:** storm rumble audio, window vibrates gently, sea becomes turbulent
+- Tone: honest, gentle, grateful — not bitter or blaming
+- Visual shift: room dims slightly, rain streaks on window, lightning flicker
+- Lasts a few seconds, then fades into stillness → transitions to The Turn
 
 ### 8. The Turn
 - Room darkens gradually
