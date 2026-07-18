@@ -80,9 +80,15 @@ TBD — hex codes to be defined per section during design phase.
 - Scroll triggers transition to dawn (Section 3)
 
 ### 3. The Beginning
-- Night sky transitions to dawn (color gradient shift)
-- Photos from early days, soft fade-in reveals
-- Minimal text — just hints of the story
+- Night sky slowly fades into warm dawn
+- **First memory:** A staircase scene. I was at the bottom, she was at the top, looking down at me. I had asked God for a partner — and there she was.
+- **Timeline revealed gently:**
+  - *"I first saw you in 2019."*
+  - *"But I wasn't ready. I had someone else."*
+  - *"Still — I couldn't forget your face."*
+  - *"In 2022, I finally gathered the courage to reach out."*
+- Text split with image — diary-entry style. First photo from early days appears.
+- Soft, warm. Dawn colors. Hesitant hope.
 
 ### 4. Building Home (Gradual)
 - **Scroll-driven reveal:** empty room → furniture appears one by one
