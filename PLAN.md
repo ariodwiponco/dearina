@@ -72,8 +72,9 @@ Single-page, top-to-bottom, chronological:
 
 ## 10. Interactive Letter
 - A dedicated "Letters" section (between Good Times and The Turn)
-- User can interact with the letter content — typewriter effect, tap to reveal, or fold/unfold animation
-- Details to be designed later
+- **Fold/unfold paper** — letter appears as a folded paper. Click/tap to unfold. Each fold reveals a paragraph.
+- **Handwritten font** — cursive, feels personal, like reading a real letter on paper
+- Paper texture background on the letter itself (grain overlay)
 
 ## 11. Photography
 - Photos (user's own — to be curated/moved later)
