@@ -161,14 +161,19 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 9. She Leaves First
 - Room still there, she's gone
-- She left **three times** — each time I kept the house warm, hoping she'd come back. And she did. Twice.
-- **Text — first scroll:**
-  - *"You left three times."*
-  - *"The first time, I waited."*
-  - *"The second time, I opened the door."*
-  - *"This time — I knew you wanted to venture further."*
-- Visual: the room still intact — but one origami star has fallen on the floor. One shelf empty. Photo frame angled slightly.
-- Gray sky through window. Muted colors. 
+- She left multiple times — I don't remember how many now. Not counting. Not keeping score.
+- **Text — scroll reveals:**
+  - *"You left."*
+  - *"More than once. I don't remember how many times anymore."*
+  - *"Not because I stopped caring."*
+  - *"But because counting felt like keeping score."*
+  - *"And this was never a game."*
+  - *(pause)*
+  - *"I don't think you wanted to go."*
+  - *"I think you just — needed to."*
+  - *"And maybe that was best for both of us."*
+- Visual: the room still intact — one origami star fallen on the floor. One shelf empty. Photo frame angled slightly.
+- Gray sky through window. Muted colors.
 - Silence (audio fades)
 
 ### 10. Leaving Home
