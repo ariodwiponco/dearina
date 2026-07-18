@@ -119,6 +119,19 @@ Dynamic image + text pairs. Each line has matching photos:
 
 Followed by: *"We were so alive, were not we?"*
 
+*(pause - screen brightens)*
+
+### Engagement Scene (peak moment)
+- Illustrated scene similar to staircase / moving to the house style.
+- Single moment: kneeling figure, her hand reached out. Ring.
+- Background: warm golden burst effect, soft sparkle particles around the ring.
+- Sound: music swells to its peak here.
+- No text needed — or just: *"And then I asked you to stay forever."*
+- Brief. Let the visuals carry the emotion.
+- This is the **emotional climax** of the whole website.
+
+Then transition into Bad Times.
+
 Playful animations. Card flip. Bounce. Wiggle on hover. Masonry grid.
 
 ### 7. The Bad Times

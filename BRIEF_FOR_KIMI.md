@@ -32,8 +32,9 @@ This is the best possible goodbye.
 1. **Password Gate** — pass `251101`, title "Dear Ina"
 2. **Opening: Stars** — "Dear Ina" + "You will always be the dream I always tried to reach. But I think I have fallen among the stars while trying."
 3. **The Beginning** — Staircase scene (man bottom left, woman top right). "I asked God for a partner. And He really sent you. Like you descended from heaven." Timeline 2019 to 2022.
-4. **Moving to the house** — Illustrated scene (like staircase): two figures approaching a house exterior. Stepping into our new life together. "A love you have never experienced before, right?"
-5. **Building Home** — Empty room with window facing sea. Items appear one by one: table, chair, lamp, shelf with origami stars, photos, plant. "Rumah aku dan kamu memang tidak sempurna. Tapi kita sama-sama mau mengisinya."
+4. **Moving to the house** — Illustrated scene (like staircase): two figures approaching a house exterior.
+5. **Building Home** — Empty room with window facing sea. Items appear one by one.
+6. **The Good Times** — Image+text pairs of everything we shared. Ends with **Engagement Scene**: kneeling, ring, golden burst, music peak. Emotional climax.
 5. **The Good Times** — Image+text pairs:
    - Countless places we visited.
    - Endless foods and drinks we tried.
