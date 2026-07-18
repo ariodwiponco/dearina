@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dear Ina — a quiet place to remember, miss, and let go." />
+  <title>Dear Ina — a small memorial</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- password gate -->
+  <div id="gate" class="gate">
+    <div class="gate-card">
+      <p class="gate-label">Enter the date that belongs to her</p>
+      <input id="pass-input" type="password" inputmode="numeric" maxlength="6" placeholder="DDMMYY" />
+      <button id="pass-btn" class="btn btn-soft">enter</button>
+      <p id="pass-error" class="gate-error">not quite</p>
+    </div>
+  </div>
+
+  <main id="site" class="site" aria-hidden="true">
+    <!-- hero -->
+    <section class="hero section" data-theme="calm">
+      <div class="tide">
+        <div class="tide-layer tide-back"></div>
+        <div class="tide-layer tide-mid"></div>
+        <div class="tide-layer tide-front"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="title">Dear Ina</h1>
+        <p class="subtitle">A quiet corner for someone I once knew by heart.</p>
+        <div class="scroll-hint">
+          <span>scroll gently</span>
+          <span class="chevron"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- once upon -->
+    <section class="section" data-theme="warm">
+      <div class="container narrow">
+        <h2 class="section-title">Once upon a time</h2>
+        <p class="prose">
+          We met in 2019, or perhaps the world introduced us long before we were ready.
+          I reached out in 2022, and for a while the air felt different—lighter, like the tide was coming in.
+        </p>
+        <figure class="photo-frame">
+          <img src="assets/images/placeholder-1.jpg" alt="placeholder photo: early days" loading="lazy" />
+          <figcaption>A memory I still carry.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- good times -->
+    <section class="section play" data-theme="play">
+      <div class="container narrow">
+        <h2 class="section-title">The good times</h2>
+        <p class="prose">
+          There were small joys: late replies that still made me smile, inside jokes no one else would understand,
+          and ordinary moments that felt like home because she was in them.
+        </p>
+        <div class="masonry">
+          <figure class="photo-frame"><img src="assets/images/placeholder-2.jpg" alt="placeholder" loading="lazy" /></figure>
+          <figure class="photo-frame"><img src="assets/images/placeholder-3.jpg" alt="placeholder" loading="lazy" /></figure>
+          <figure class="photo-frame"><img src="assets/images/placeholder-4.jpg" alt="placeholder" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- letter -->
+    <section class="section" data-theme="calm">
+      <div class="container narrow">
+        <h2 class="section-title">A letter I never sent</h2>
+        <div id="letter" class="letter">
+          <div class="letter-front">
+            <p class="letter-peek">Ina, there are things I still want to say…</p>
+            <button id="letter-open" class="btn btn-soft">open the letter</button>
+          </div>
+          <div class="letter-inside">
+            <p class="prose">Ina,</p>
+            <p class="prose">
+              I kept the house warm every time you left. Not because I expected you to come back,
+              but because some part of me still wanted you to feel welcome, even from far away.
+            </p>
+            <p class="prose">
+              I am learning now that love can be honest and still not be enough.
+              That holding on can be brave, and letting go can be too.
+            </p>
+            <p class="prose">
+              I hope the tide brings you peace. I hope you find a home that does not need convincing.
+            </p>
+            <p class="prose signoff">— always, in a quiet way</p>
+            <button id="letter-close" class="btn btn-soft">fold away</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- three goodbyes -->
+    <section class="section" data-theme="cool">
+      <div class="container narrow">
+        <h2 class="section-title">Three goodbyes</h2>
+        <p class="prose">
+          You left three times. The first felt like a surprise, the second like a pattern, the third like a slow wave
+          returning to the sea. I stayed, not because I did not understand, but because I was still saying thank you.
+        </p>
+        <figure class="photo-frame">
+          <img src="assets/images/placeholder-5.jpg" alt="placeholder: empty chair by the window" loading="lazy" />
+          <figcaption>The chair stayed warm for a while.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- release star -->
+    <section class="section final" data-theme="release">
+      <div class="container narrow">
+        <h2 class="section-title">Letting go</h2>
+        <p class="prose">
+          Some stories end with a star, not a storm. Tap the origami star below, fold it, and let it float away.
+        </p>
+        <div id="star-scene" class="star-scene">
+          <div id="star" class="origami-star" role="button" tabindex="0" aria-label="Release the origami star">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <polygon points="60,5 75,45 115,45 82,72 95,112 60,88 25,112 38,72 5,45 45,45" />
+            </svg>
+          </div>
+        </div>
+        <p id="star-note" class="star-note hidden">The star has gone where the tide takes it.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Dear Ina · made with a soft heart · 2026</p>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
