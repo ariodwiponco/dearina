@@ -25,15 +25,15 @@
 | 2 | **Opening: Stars** | Deep night sky, scattered origami stars twinkling | Origami stars float gently, dimly lit | Dreamy, distant |
 | 3 | **The beginning** | Stars fade into warm dawn | Night → sunrise transition | Hope, hesitant joy |
 | 4 | **Building home** | Coastline, first light | **Empty room with window facing sea.** As relationship grows, we add: furniture, photos on walls, plants, warm lights. Each scroll adds something new. | Warm, growing |
-| 6 | **The bad times** | Acknowledging we faced storms | Honest, brief |
-| 7 | **Letters** | Fold/unfold paper, handwritten font | Intimate, closing |
-| 8 | **The turn** | Tide rises and falls faster, room darkens | Unsettling |
-| 9 | **She leaves first** | Empty room, one fallen star | Hollow |
-| 10 | **Leaving home** | House fades, door opens, walk away | Melancholic |
-| 11 | **Closing** | Star release + letter, final moment | Peaceful goodbye |
+| 5 | **The good times** | Same room, vibrant | Room fully alive, colorful, sunlit, photos everywhere, playful energy | Alive, fun |
+| 6 | **The bad times** | Room dims, storm outside | Window rattles, rain streaks, lightning flickers | Honest, brief |
+| 7 | **The turn** | Room darkens, sea rises and falls faster | *Air laut surut pasang* visualized erratically. Origami stars dim one by one. | Unsettling |
+| 8 | **She leaves first** | Room still there, she is gone | Window shows gray sea, empty room. One origami star left on floor. House feels hollow. | Hollow loss |
+| 9 | **Leaving home** | Table with letter + ring | Camera lingers on table, then pulls back. House fades into sea. Stars reappear distant. | Release |
+| 10 | **Closing / Letter** | Night sky again | One origami star. Clickable letter. Star flies away after reading. | Peaceful goodbye |
 
 ### Key metaphor: Building home gradually
-The home section starts as an **empty room with a window overlooking the sea**. As user scrolls through this chapter, items appear one by one — a chair, a table, a lamp, photos on walls, plants, origami stars on shelves. Each item represents a memory, a moment built together. The room grows full gradually, mirroring how relationships are built piece by piece.
+The home section starts as an **empty room with a window overlooking the sea**. As user scrolls through this chapter, items appear one by one. A chair, a table, a lamp, photos on walls, plants, origami stars on shelves. Each item represents a memory, a moment built together. The room grows full gradually, mirroring how relationships are built piece by piece.
 
 ## 4. Color Palette (Per Section)
 
@@ -72,20 +72,20 @@ TBD — hex codes to be defined per section during design phase.
 - Text appears line by line (typewriter or fade):
   - *"Dear Ina,"*
   - *(pause)*
-  - *"You'll always be the dream I always tried to reach."*
+  - *"You will always be the dream I always tried to reach."*
   - *"But I think..."*
-  - *"I've fallen among the stars while trying."*
+  - *"I have fallen among the stars while trying."*
 - Stars glow brighter on "fallen among the stars"
-- Soft, slow pace — this is the first breath of the story
+- Soft, slow pace. This is the first breath of the story.
 - Scroll triggers transition to dawn (Section 3)
 
 ### 3. The Beginning
 - Night sky slowly fades into warm dawn
-- **First memory:** A staircase scene. I was at the bottom, she was at the top, looking down at me. I had asked God for a partner — and there she was.
+- **First memory:** A staircase scene. I was at the bottom, she was at the top, looking down at me. I had asked God for a partner. And there she was.
 - **Timeline revealed gently:**
   - *"I first saw you in 2019."*
-  - *"But I wasn't ready. I had someone else."*
-  - *"Still — I couldn't forget your face."*
+  - *"But I was not ready. I had someone else."*
+  - *"Still. I could not forget your face."*
   - *"In 2022, I finally gathered the courage to reach out."*
 - Text split with image — diary-entry style. First photo from early days appears.
 - Soft, warm. Dawn colors. Hesitant hope.
@@ -96,7 +96,7 @@ TBD — hex codes to be defined per section during design phase.
 - Items appear in order (TBD): window frame → table → chair → lamp → shelf → origami stars → photos on wall → plants
 - Warm golden light growing with each addition
 - **Opening line:** "Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan."
-- Scroll reveals: "A love you've never experienced before, right?"
+- Scroll reveals: "A love you have never experienced before, right?"
 - Then as items fill the room:
   - "Rumah aku dan kamu memang tidak sempurna."
   - "Tapi kita sama-sama mau mengisinya."
@@ -117,30 +117,13 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 6. The Bad Times (Acknowledgment)
 - Acknowledging that not everything was perfect
-- A brief, honest section — not dwelling, but honoring that we faced storms together
-- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
-- Tone: honest, gentle — not bitter or blaming
-- Visual shift: room dims slightly, sea outside becomes more turbulent
-- Transition into The Turn — this is the bridge
-- **Content:** TBD (your letter to Ina)
-
-### 6. The Bad Times (Acknowledgment)
-- Acknowledging that not everything was perfect
-- A brief, honest section — not dwelling, but honoring that we faced storms together
-- Possible text: *"But it wasn't always beautiful."* / *"We had our fights. Our silences. Our doubts."*
-- Tone: honest, gentle — not bitter or blaming
-- Visual shift: room dims slightly, sea outside becomes more turbulent
-- Transition into The Turn — this is the bridge
-
-### 6. The Bad Times (Acknowledgment)
-- Acknowledging that not everything was perfect
-- **Text:** "We acknowledged there's always two sides of a coin. But I'm always grateful that I had you in those bad times. Even the sea had its storms too, right?"
+- **Text:** "We acknowledged there is always two sides of a coin. But I am always grateful that I had you in those bad times. Even the sea had its storms too, right?"
 - **Effect:** storm rumble audio, window vibrates gently, sea becomes turbulent
 - Tone: honest, gentle, grateful — not bitter or blaming
 - Visual shift: room dims slightly, rain streaks on window, lightning flicker
 - Lasts a few seconds, then fades into stillness → transitions to The Turn
 
-### 8. The Turn
+### 7. The Turn
 - Room darkens gradually
 - Sea outside window starts rising and falling faster (*air laut surut pasang*)
 - Origami stars on shelf dim one by one
@@ -148,54 +131,90 @@ TBD — hex codes to be defined per section during design phase.
 - **Text structure — scroll reveals step by step:**
   - *"After every storm, we rebuilt."*
   - *"But the waves kept coming."*
-  - *"And slowly — the shore started changing shape."*
+  - *"And slowly the shore started changing shape."*
   - *"Something shifted between us."*
-  - *"I don't know when. Or who."*
+  - *"I do not know when. Or who."*
   - *"But the air felt different when we were in the same room."*
   - *(pause — everything dims)*
   - *"Air laut surut pasang, tapi rasanya akan selalu sama."*
   - *(pause — line stays alone)*
   - *"It used to be a comfort."*
-  - *"Now it's the saddest truth I know."*
+  - *"Now it is the saddest truth I know."*
 - After final line, tide slows. Silence. Screen darkens. → She Leaves First
 
-### 9. She Leaves First
-- Room still there, she's gone
-- She left multiple times — I don't remember how many now. Not counting. Not keeping score.
+### 8. She Leaves First
+- Room still there, she is gone
+- She left multiple times. I do not remember how many anymore. Not counting. Not keeping score.
 - **Text — scroll reveals:**
   - *"You left."*
-  - *"More than once. I don't remember how many times anymore."*
+  - *"More than once. I do not remember how many times anymore."*
   - *"Not because I stopped caring."*
   - *"But because counting felt like keeping score."*
   - *"And this was never a game."*
   - *(pause)*
-  - *"I don't think you wanted to go."*
-  - *"I think you just — needed to."*
+  - *"I do not think you wanted to go."*
+  - *"I think you just needed to."*
   - *"And maybe that was best for both of us."*
 - Visual: the room still intact — one origami star fallen on the floor. One shelf empty. Photo frame angled slightly.
 - Gray sky through window. Muted colors.
 - Silence (audio fades)
 
-### 10. Leaving Home
-- House itself begins to fade/dissolve
-- **Scenery:** A table — left behind. On it: a folded letter you wrote, and the ring you gave her when you proposed.
+### 9. Leaving Home
+- **Scenery:** A table. On it: the letter you wrote to her, folded. And the ring you gave her when you proposed.
+- House begins to fade around the table
 - **Text:**
   - *"I left everything on the table."*
   - *"The letter I wrote you."*
   - *"The ring I gave you."*
-  - *"All of it — still there."*
+  - *"All of it. Still there."*
   - *(pause)*
-  - *"Because some things aren't meant to be carried forward."*
-  - *"They're meant to be left where they belong."*
+  - *"Because some things are not meant to be carried forward."*
+  - *"They are meant to be left where they belong."*
+- The letter is clickable. Tap to open and read.
 - Visual: camera lingers on the table. Then slowly pulls back. House recedes, door frame appears. Steps through.
 - Tide sound swells gently. Stars visible again — distant but present.
 
-### 11. Closing
-- Back to night sky
-- Origami stars scatter in wind, floating away
-- Final text message
-- Interactive release element (TBD — button? crane? lantern?)
-- "I left home" — moving on is not forgetting, it's letting go
+### 10. Closing — The Letter (Clickable)
+- Back to the night sky. Stars twinkling.
+- A single origami star floats gently on screen.
+- **Below it: the folded letter** — same paper texture as Leaving Home table scene.
+- **Click/tap the letter** → it unfolds with a paper-crackle animation
+- **Text revealed (improved):**
+  - *"Dear Ina,"*
+  - *(pause)*
+  - *"Time has flown so fast, has not it?"*
+  - *"Four years with you. All the good things, all the bad things, all the joy and tears. All of everything."*
+  - *"We fought. We tried. We held together. We hoped for the best in each other."*
+  - *"There is not a single second I regret being with you."*
+  - *"Every effort I put in to give you the world and everything inside it."*
+  - *"We dreamed. I guess it stayed a dream."*
+  - *"Maybe we were not meant to be in this universe."*
+  - *"Do I envy the version of me in another universe who ends up with you?"*
+  - *"Of course I do."*
+  - *(pause)*
+- **Keep this exactly as is (below):**
+  - *"Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan"*
+  - *(pause)*
+
+#### Closure lines (after the Indonesian line):
+- *"I am not celebrating this goodbye."*
+- *"I am honoring what we built."*
+- *"Every corner of that home. Every star I folded for you. Every wave we weathered."*
+- *"You were my dream, Ina."*
+- *"And dreams do not disappear."*
+- *"They just change shape."*
+- *(pause)*
+- *"Goodbye, my dream girl."*
+
+#### Google Drive Archive
+- A small line or button at the bottom: *"Archive of us"*
+- Links to Google Drive folder (TBD — you will add the link later)
+- Contains photos of you and Ina together
+
+#### Final interactive — Star Release
+- After reading, a single origami star appears on screen
+- Tap it → it folds itself (CSS keyframes: paper crease animation), then floats upward and drifts into the night sky
+- Full circle. Opening stars → building together → letting go.
 
 ## 9. Animation & Transition Per Section
 
@@ -207,35 +226,29 @@ TBD — hex codes to be defined per section during design phase.
 | Building home | Items appear one by one, fade+drift-up, warm glow grows | Growing warmth |
 | The good times | **Playful** — photos flip-in, bounce, wiggle on hover | Fun, alive |
 | The bad times | Slow dim, gentle deceleration | Honest, quiet |
-| Letters | Fold/unfold paper, handwritten reveal | Intimate, closing |
 | The turn | Vignette darkens, tide speeds up, stars dim | Unsettling |
 | She leaves | Stillness — almost no animation, just emptiness | Hollow |
 | Leaving home | House dissolves, door opening, fade to horizon | Melancholic |
-| Closing | Stars scatter, drift away, final stillness | Peaceful release |
+| Closing / Letter | Paper unfold, star release, final stillness | Peaceful release |
 
 - **Section-triggered mood shift:** animations, colors, audio all shift as user scrolls
 - All animations use `IntersectionObserver` + CSS transitions/transforms (no heavy libs)
-- Target < 50KB extra, no jank on mid-range devices
+- Target < 80KB extra, no jank on mid-range devices
 
 ## 10. UI Elements
 - **Scroll progress indicator** — thin line top-left, fills as they read OR chapter dots on the side
 - **Loading state:** first visit → title card with slow fade-in before scroll
 - **Play/pause button** — top-right corner, for music/ambiance
 
-## 11. Photography
-- Photos (user's own — to be curated/moved later)
-- Sections 3 (Beginning) and 5 (Good times) primary photo areas
-- Portrait vs landscape handling TBD
-- Good times: playful card-flip entry
-- Later sections: slower, gentler reveals
-
-## 12. Content
-- Photos
-- Written letters / poetry (fold/unfold paper)
-- Text narration throughout
-- The idiom: *"Coming air laut surut pasang, tapi rasanya akan selalu sama"*
+## 11. Performance Targets
+- Lighthouse mobile: 90+ Performance, 95+ Accessibility
+- Total CSS/JS: < 80KB
+- No external libraries (no jQuery, no GSAP, no framework)
+- Photos: WebP format, lazy loading via `loading="lazy"`
+- Animations: GPU-accelerated (transform, opacity only)
+- Google Fonts: subset latin, preconnect, preload
 
 ---
 
 _Plan last updated: 2026-07-18_
-_Next: Define hex color palette per section, finalize fonts, then build with Kimi K3_
+_Ready for Kimi K3 to build_
