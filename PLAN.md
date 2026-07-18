@@ -160,9 +160,15 @@ TBD — hex codes to be defined per section during design phase.
 - After final line, tide slows. Silence. Screen darkens. → She Leaves First
 
 ### 9. She Leaves First
-- Room still the same, but she's not there
-- Gray sky through window, muted colors
-- One origami star fallen on floor
+- Room still there, she's gone
+- She left **three times** — each time I kept the house warm, hoping she'd come back. And she did. Twice.
+- **Text — first scroll:**
+  - *"You left three times."*
+  - *"The first time, I waited."*
+  - *"The second time, I opened the door."*
+  - *"This time — I knew you wanted to venture further."*
+- Visual: the room still intact — but one origami star has fallen on the floor. One shelf empty. Photo frame angled slightly.
+- Gray sky through window. Muted colors. 
 - Silence (audio fades)
 
 ### 10. Leaving Home
