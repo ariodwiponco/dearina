@@ -20,13 +20,14 @@
 | 1 | Password gate | Dark, minimal |
 | 2 | Opening: Stars | Dreamy |
 | 3 | The beginning | Hesitant hope |
-| 4 | Building home | Growing warmth |
-| 5 | The good times | Alive, fun |
-| 6 | The bad times | Honest, quiet |
-| 7 | The turn | Unsettling |
-| 8 | She leaves first | Hollow |
-| 9 | Leaving home | Melancholic |
-| 10 | Closing / Letter | Peaceful |
+| 4 | Moving to the house | Hopeful |
+| 5 | Building home | Growing warmth |
+| 6 | The good times | Alive, fun |
+| 7 | The bad times | Honest, quiet |
+| 8 | The turn | Unsettling |
+| 9 | She leaves first | Hollow |
+| 10 | Leaving home | Melancholic |
+| 11 | Closing / Letter | Peaceful |
 
 The home section starts as an empty room with a window facing the sea. Each scroll adds an item. A chair. A lamp. Photos on the wall. Plants. Origami stars on the shelf. The room fills slowly, like the relationship did.
 
@@ -82,23 +83,25 @@ Stars fade into dawn. First memory:
 
 Diary-entry split layout. First photo. Warm dawn colors.
 
-### 4. Building Home
-Empty room with window facing the sea. Items appear one by one via tap/scroll.
+### 4. Moving to a New Home — Scene (like staircase)
+A separate illustrated scene, similar to the staircase. A simple house exterior or doorway. Two figures approach together. The house is empty. This is the moment we step into our new life together.
+
+*(A love you have never experienced before, right?)*
+
+Then the scene transitions into the interior: room with window facing sea.
+
+### 5. Building Home (Filling the Room)
+Empty room. Items appear one by one via tap or scroll.
 
 - Table appears. Then chair. Then lamp. Then shelf with origami stars. Then photos on wall. Then plant.
 - Warm golden light grows with each item.
-- Visual style inspired by the staircase scene: simple illustrated room, warm tones.
 
 *"Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan."*
-*(scroll)*
-*"A love you have never experienced before, right?"*
 *(room fills)*
 *"Rumah aku dan kamu memang tidak sempurna."*
 *"Tapi kita sama-sama mau mengisinya."*
 
-Each item appears with a gentle fade + drift-up animation.
-
-### 5. The Good Times
+### 6. The Good Times
 Dynamic image + text pairs. Each line has matching photos:
 
 - *"Countless places we visited."*
@@ -118,7 +121,7 @@ Followed by: *"We were so alive, were not we?"*
 
 Playful animations. Card flip. Bounce. Wiggle on hover. Masonry grid.
 
-### 6. The Bad Times
+### 7. The Bad Times
 
 *"We always knew there were two sides to every coin."*
 *"And we had ours."*
@@ -127,7 +130,7 @@ Playful animations. Card flip. Bounce. Wiggle on hover. Masonry grid.
 
 Storm rumble. Window vibration. Rain streaks. Fades into stillness.
 
-### 7. The Turn
+### 8. The Turn
 
 *"After every storm, we rebuilt."*
 *"But the waves kept coming."*
@@ -146,7 +149,7 @@ Storm rumble. Window vibration. Rain streaks. Fades into stillness.
 *"It used to be a comfort."*
 *"Now it is the saddest truth I know."*
 
-### 8. She Leaves First
+### 9. She Leaves First
 
 *"There were times we drifted apart."*
 *"More than once. I lost count after a while."*
@@ -161,7 +164,7 @@ Storm rumble. Window vibration. Rain streaks. Fades into stillness.
 
 One origami star fallen on the floor. Gray sky. Silence.
 
-### 9. Leaving Home
+### 10. Leaving Home
 
 A table. A folded letter. A ring.
 
@@ -177,7 +180,7 @@ A table. A folded letter. A ring.
 
 House dissolves around the table. Tide swells. Stars return, distant.
 
-### 10. Closing — The Letter
+### 11. Closing — The Letter
 Night sky. One origami star. Folded letter below it.
 
 Tap to unfold. Paper crackle animation.
@@ -249,6 +252,7 @@ After reading, one origami star appears. Tap to fold and fly away into the night
 | Password gate | Clean slide-in | Functional |
 | Opening | Stars twinkle, slow drift | Dreamy |
 | Beginning | Dawn gradient shift, photos fade-in | Calm |
+| Moving to the house | Two figures approach a house exterior (like staircase scene) | Hopeful |
 | Building home | Items appear one by one, fade+drift-up | Warm |
 | Good times | Playful card flip, bounce, wiggle | Fun |
 | Bad times | Rain streaks, storm vibration, decelerate | Honest |
