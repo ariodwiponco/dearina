@@ -178,10 +178,10 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 10. Leaving Home
 - House itself begins to fade/dissolve
-- **Scenery:** A table — left behind. On it: her letters to you, and the ring you gave her when you proposed.
+- **Scenery:** A table — left behind. On it: a folded letter you wrote, and the ring you gave her when you proposed.
 - **Text:**
   - *"I left everything on the table."*
-  - *"The letters you wrote me."*
+  - *"The letter I wrote you."*
   - *"The ring I gave you."*
   - *"All of it — still there."*
   - *(pause)*
