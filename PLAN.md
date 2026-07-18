@@ -83,7 +83,11 @@ Stars fade into dawn. First memory:
 Diary-entry split layout. First photo. Warm dawn colors.
 
 ### 4. Building Home
-Empty room. Items appear one by one.
+Empty room with window facing the sea. Items appear one by one via tap/scroll.
+
+- Table appears. Then chair. Then lamp. Then shelf with origami stars. Then photos on wall. Then plant.
+- Warm golden light grows with each item.
+- Visual style inspired by the staircase scene: simple illustrated room, warm tones.
 
 *"Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan."*
 *(scroll)*
@@ -91,6 +95,8 @@ Empty room. Items appear one by one.
 *(room fills)*
 *"Rumah aku dan kamu memang tidak sempurna."*
 *"Tapi kita sama-sama mau mengisinya."*
+
+Each item appears with a gentle fade + drift-up animation.
 
 ### 5. The Good Times
 Dynamic image + text pairs. Each line has matching photos:
