@@ -4,18 +4,16 @@ export function initLetter() {
   if (!envelope || !toggle) return
 
   const lines = envelope.querySelectorAll('.paper-line')
+  lines.forEach((line, i) => { line.style.setProperty('--i', i) })
 
   toggle.addEventListener('click', () => {
     const isOpen = envelope.classList.contains('open')
     if (isOpen) {
       envelope.classList.remove('open')
-      toggle.textContent = 'buka surat'
+      toggle.textContent = 'open letter'
       return
     }
     envelope.classList.add('open')
-    toggle.textContent = 'lipat surat'
-
-    // Stagger text lines
-    gsap.fromTo(lines, { y: 14, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, stagger: 0.12, ease: 'power2.out', delay: 0.4 })
+    toggle.textContent = 'fold letter'
   })
 }

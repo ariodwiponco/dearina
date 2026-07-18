@@ -1,114 +1,60 @@
-@import url('variables.css');
-@import url('gate.css');
-@import url('scenes.css');
-@import url('letter.css');
-@import url('star.css');
-@import url('effects.css');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --lavender: #C9B1D0;
+  --lavender-deep: #9E86A6;
+  --deep: #0B060D;
+  --deep-2: #1A101C;
+  --warm: #F7F2F4;
+  --warm-2: #EDE4EB;
+  --cream: #FDFBFC;
+  --play: #FCEFBF;
+  --play-2: #FFF5D6;
+  --cool: #E8F4F8;
+  --cool-2: #D5EAF2;
+  --release: #FFF3E6;
+  --release-2: #FFECD6;
+  --text: #3D303F;
+  --text-light: #6E5E6D;
+  --title: #F7F2F4;
+  --body: rgba(247, 242, 244, 0.82);
+  --chapter: rgba(247, 242, 244, 0.55);
 }
 
-html, body, #root {
-  width: 100%;
-  min-height: 100%;
-  background: #0B060D;
-  color: #F7F2F4;
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-}
+.scene[data-theme="deep"] { --title: #F7F2F4; --body: rgba(247,242,244,0.82); --chapter: rgba(247,242,244,0.55); }
+.scene[data-theme="warm"] { --title: #2E2232; --body: rgba(46,34,50,0.82); --chapter: rgba(46,34,50,0.45); }
+.scene[data-theme="play"] { --title: #2E2232; --body: rgba(46,34,50,0.84); --chapter: rgba(46,34,50,0.45); }
+.scene[data-theme="cool"] { --title: #2E2232; --body: rgba(46,34,50,0.82); --chapter: rgba(46,34,50,0.45); }
 
-body {
-  -webkit-font-smoothing: antialiased;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #root { width: 100%; min-height: 100%; background: #0B060D; color: #F7F2F4; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+body { -webkit-font-smoothing: antialiased; }
+::selection { background: rgba(201,177,208,0.35); color: #fff; }
 
-::selection {
-  background: rgba(201, 177, 208, 0.35);
-  color: #fff;
-}
+.noise { position: fixed; inset: 0; pointer-events: none; z-index: 1000; opacity: 0.04; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); }
+.vignette { position: fixed; inset: 0; pointer-events: none; z-index: 999; background: radial-gradient(circle at 50% 40%, transparent 0%, rgba(11,6,13,0.4) 70%, rgba(11,6,13,0.85) 100%); }
 
-.noise {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1000;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-}
+.progress-bar { position: fixed; top: 0; left: 0; height: 2px; width: 100%; z-index: 2001; background: rgba(255,255,255,0.08); }
+.progress-fill { display: block; height: 100%; width: 0%; background: var(--lavender); box-shadow: 0 0 10px var(--lavender); }
 
-.vignette {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 999;
-  background: radial-gradient(circle at 50% 40%, transparent 0%, rgba(11,6,13,0.4) 70%, rgba(11,6,13,0.85) 100%);
-}
+.stage { display: none; }
+.stage.unlocked { display: block; }
 
-.stage {
-  display: none;
-}
+.container { width: 100%; max-width: 980px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 2; }
+.container.narrow { max-width: 720px; }
 
-.stage.unlocked {
-  display: block;
-}
+.scene { position: relative; min-height: 100vh; display: flex; align-items: center; padding: 8rem 0; overflow: hidden; isolation: isolate; }
+.scene-bg { position: absolute; inset: 0; z-index: 0; opacity: 0; transition: opacity 1.2s ease; }
+.scene.active .scene-bg { opacity: 1; }
+.scene[data-theme="deep"] .scene-bg { background: radial-gradient(circle at 50% 30%, #1A101C 0%, #0B060D 55%, #050205 100%); }
+.scene[data-theme="warm"] .scene-bg { background: linear-gradient(180deg, #FDFBFC 0%, #F7F2F4 60%, #EDE4EB 100%); }
+.scene[data-theme="play"] .scene-bg { background: linear-gradient(180deg, #FFF5D6 0%, #FCEFBF 55%, #F7E8A5 100%); }
+.scene[data-theme="cool"] .scene-bg { background: linear-gradient(180deg, #E8F4F8 0%, #D5EAF2 55%, #C9E0EB 100%); }
 
-.container {
-  width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  position: relative;
-  z-index: 2;
-}
+.chapter-mark { font-family: 'Cormorant Garamond', serif; font-size: 0.85rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--chapter); margin-bottom: 1rem; opacity: 0.8; }
+.scene-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.6rem, 7vw, 5.5rem); font-weight: 300; line-height: 1.05; margin-bottom: 1.5rem; color: var(--title); }
 
-.container.narrow {
-  max-width: 720px;
-}
+.typed-block { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.25rem, 2.6vw, 1.7rem); line-height: 1.85; color: var(--body); }
+.typed-block p { margin-bottom: 1.1rem; opacity: 0; transform: translateY(18px); }
+.typed-block p.revealed { opacity: 1; transform: translateY(0); transition: opacity 0.8s ease, transform 0.8s ease; }
+.typed-block p.indo { font-style: italic; color: var(--text); }
 
-.chapter-mark {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
-  color: var(--chapter);
-  margin-bottom: 1rem;
-  opacity: 0.8;
-}
-
-.scene-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2.6rem, 7vw, 5.5rem);
-  font-weight: 300;
-  line-height: 1.05;
-  margin-bottom: 1.5rem;
-  color: var(--title);
-}
-
-.scene-text {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(1.15rem, 2.4vw, 1.55rem);
-  line-height: 1.85;
-  color: var(--body);
-  max-width: 640px;
-}
-
-.scene-text p {
-  margin-bottom: 1.2rem;
-}
-
-.footer {
-  padding: 5rem 1.5rem 3rem;
-  text-align: center;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  color: rgba(247, 242, 244, 0.35);
-  background: #0B060D;
-}
-
-@media (max-width: 640px) {
-  .container { padding: 0 1.1rem; }
-  .scene-title { font-size: 2.4rem; }
-  .scene-text { font-size: 1.1rem; }
-}
+@media (max-width: 640px) { .container { padding: 0 1.1rem; } .scene-title { font-size: 2.4rem; } .typed-block { font-size: 1.15rem; } }

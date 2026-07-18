@@ -3,145 +3,275 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dear Ina — a cinematic memorial." />
+  <meta name="description" content="Dear Ina — a memorial for what was, and a quiet goodbye." />
   <title>Dear Ina</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-  <script src="https://unpkg.com/split-type"></script>
-  <script type="module" crossorigin src="./assets/index-Yu1kgIZo.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BuUBuHVv.css">
+  <script type="module" crossorigin src="./assets/index-UhzeAmn6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BUKM8fz9.css">
 </head>
 <body>
   <div id="root">
     <div class="noise"></div>
     <div class="vignette"></div>
+    <div class="progress-bar"><span class="progress-fill"></span></div>
 
-    <!-- gate -->
     <section id="gate" class="gate">
       <div class="gate-orb"></div>
       <div class="gate-card">
-        <p class="gate-prompt">kapan rumah ini menjadi milik kita berdua?</p>
-        <input id="pass-input" type="password" inputmode="numeric" maxlength="6" placeholder="••••••" />
-        <button id="pass-btn" class="btn-enter">buka</button>
-        <p id="pass-error" class="gate-error">bukan itu</p>
+        <h1 class="gate-title">Dear Ina</h1>
+        <p class="gate-hint">DDMMYYYY</p>
+        <input id="pass-input" type="password" inputmode="numeric" maxlength="8" placeholder="DDMMYYYY" />
+        <button id="pass-btn" class="btn-enter">enter</button>
+        <p id="pass-error" class="gate-error">not quite</p>
       </div>
     </section>
 
-    <!-- main stage -->
     <main id="stage" class="stage" aria-hidden="true">
-      <!-- hero -->
       <section id="hero" class="scene scene-hero" data-theme="deep">
         <canvas id="tide-canvas"></canvas>
         <div class="hero-copy">
-          <div class="eyebrow">untuk seseorang yang pernah</div>
-          <h1 class="hero-title">Dear Ina</h1>
+          <div class="hero-title">Dear Ina</div>
           <div class="hero-tagline"></div>
-          <div class="scroll-orb">
-            <span class="orb-dot"></span>
-            <span class="orb-line"></span>
-            <span class="orb-label">scroll perlahan</span>
+          <div class="scroll-orb"><span class="orb-line"></span><span class="orb-label">scroll gently</span></div>
+        </div>
+      </section>
+
+      <section id="opening" class="scene scene-opening" data-theme="deep">
+        <div class="container narrow">
+          <div class="typed-block" data-typed>
+            <p>Dear Ina,</p>
+            <p>You will always be the dream I always tried to reach.</p>
+            <p>But I think...</p>
+            <p>I have fallen among the stars while trying.</p>
           </div>
         </div>
       </section>
 
-      <!-- once upon -->
-      <section id="once" class="scene scene-once" data-theme="warm">
+      <section id="beginning" class="scene scene-beginning" data-theme="warm">
         <div class="scene-bg"></div>
         <div class="container">
-          <div class="chapter-mark">I</div>
-          <h2 class="scene-title">Once upon a time</h2>
-          <div class="scene-text">
-            <p>Kita berkenalan pada 2019, atau mungkin dunia memperkenalkan kita jauh sebelum kita siap.</p>
-            <p>Aku menghubungimu lagi di 2022. Udara terasa berbeda — lebih ringan, seperti saat air laut mulai pasang.</p>
-          </div>
-          <div class="photo-reveal photo-1">
-            <div class="photo-caption">2019 — sebelum kita tahu apa artinya pulang.</div>
-            <img src="/images/placeholder-1.jpg" alt="placeholder" />
+          <div class="diary-wrap">
+            <div class="diary-text">
+              <div class="chapter-mark">I</div>
+              <h2 class="scene-title">The Beginning</h2>
+              <div class="typed-block" data-typed>
+                <p>I asked God for a partner.</p>
+                <p>And He really sent you.</p>
+                <p>Like you descended from heaven.</p>
+                <p>I first saw you in 2019.</p>
+                <p>But I was not ready. I had someone else.</p>
+                <p>Still. I could not forget your face.</p>
+                <p>In 2022, I finally gathered the courage to reach out.</p>
+              </div>
+            </div>
+            <div class="photo-reveal">
+              <img src="./images/placeholder-1.jpg" alt="placeholder" loading="lazy" />
+              <div class="photo-caption">2019 — before we knew</div>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- good times -->
+      <section id="moving" class="scene scene-moving" data-theme="warm">
+        <div class="scene-bg"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">II</div>
+          <h2 class="scene-title">Moving to the House</h2>
+          <div class="house-scene" id="house-scene">
+            <div class="house"></div>
+            <div class="figure figure-left"></div>
+            <div class="figure figure-right"></div>
+          </div>
+          <div class="typed-block" data-typed>
+            <p>A love you have never experienced before, right?</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="building" class="scene scene-building" data-theme="warm">
+        <div class="scene-bg"></div>
+        <div class="container">
+          <div class="chapter-mark">III</div>
+          <h2 class="scene-title">Building Home</h2>
+          <div class="room" id="room">
+            <div class="room-window">
+              <div class="sea"></div>
+            </div>
+            <div class="item item-table" data-item="table"></div>
+            <div class="item item-chair" data-item="chair"></div>
+            <div class="item item-lamp" data-item="lamp"></div>
+            <div class="item item-shelf" data-item="shelf"></div>
+            <div class="item item-photos" data-item="photos"></div>
+            <div class="item item-curtains" data-item="curtains"></div>
+            <div class="item item-stars" data-item="stars"></div>
+            <div class="item item-plant" data-item="plant"></div>
+          </div>
+          <div class="typed-block" data-typed>
+            <p>Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan.</p>
+            <p>Rumah aku dan kamu memang tidak sempurna.</p>
+            <p>Tapi kita sama-sama mau mengisinya.</p>
+          </div>
+        </div>
+      </section>
+
       <section id="good" class="scene scene-good" data-theme="play">
         <div class="scene-bg"></div>
         <div class="container">
-          <div class="chapter-mark">II</div>
-          <h2 class="scene-title">The good times</h2>
-          <div class="scene-text">
-            <p>Ada pesan-pesan kecil yang membuatku tersenyum, lelucon dalam yang hanya kita mengerti, dan momen-momen biasa yang terasa seperti rumah karena kamu ada di sana.</p>
+          <div class="chapter-mark">IV</div>
+          <h2 class="scene-title">The Good Times</h2>
+          <div class="good-grid" id="good-grid">
+            <div class="good-item"><span class="good-text">Countless places we visited.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Endless foods and drinks we tried.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every juice we blended together.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every meal we cooked for each other.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every cake we baked for us.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Boundless activities we did together.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">And infinite kisses and hugs sent between us.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every date plan we created.</span><img src="./images/placeholder-5.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every sunrise we chased.</span><img src="./images/placeholder-2.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every train we almost missed.</span><img src="./images/placeholder-3.jpg" alt="" loading="lazy" /></div>
+            <div class="good-item"><span class="good-text">Every song we sang in the car.</span><img src="./images/placeholder-4.jpg" alt="" loading="lazy" /></div>
           </div>
-          <div class="gallery">
-            <div class="photo-card"><img src="/images/placeholder-2.jpg" alt="placeholder" /></div>
-            <div class="photo-card"><img src="/images/placeholder-3.jpg" alt="placeholder" /></div>
-            <div class="photo-card"><img src="/images/placeholder-4.jpg" alt="placeholder" /></div>
+          <div class="typed-block alive-line" data-typed>
+            <p>We were so alive, were not we?</p>
           </div>
         </div>
       </section>
 
-      <!-- letter -->
-      <section id="letter" class="scene scene-letter" data-theme="calm">
+      <section id="engagement" class="scene scene-engagement" data-theme="play">
         <div class="scene-bg"></div>
         <div class="container narrow">
-          <div class="chapter-mark">III</div>
-          <h2 class="scene-title">A letter I never sent</h2>
+          <div class="ring-burst" id="ring-burst"></div>
+          <div class="typed-block" data-typed>
+            <p>And then I asked you to stay forever.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bad" class="scene scene-bad" data-theme="cool">
+        <div class="scene-bg"></div>
+        <div class="storm" id="storm"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">V</div>
+          <h2 class="scene-title">The Bad Times</h2>
+          <div class="typed-block" data-typed>
+            <p>We always knew there were two sides to every coin.</p>
+            <p>And we had ours.</p>
+            <p>But I never once wished I had weathered those storms with anyone else.</p>
+            <p>Even the sea has its storms too. Does not it?</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="turn" class="scene scene-turn" data-theme="cool">
+        <div class="scene-bg"></div>
+        <div class="tide-wide" id="tide-wide"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">VI</div>
+          <h2 class="scene-title">The Turn</h2>
+          <div class="typed-block" data-typed>
+            <p>After every storm, we rebuilt.</p>
+            <p>But the waves kept coming.</p>
+            <p>And slowly, the shore started changing shape.</p>
+            <p>Something shifted between us.</p>
+            <p>I do not know when. Or who.</p>
+            <p>But the air felt different when we were in the same room.</p>
+            <p>Air laut surut pasang, tapi rasanya akan selalu sama.</p>
+            <p>It used to be a comfort.</p>
+            <p>Now it is the saddest truth I know.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="leaves" class="scene scene-leaves" data-theme="cool">
+        <div class="scene-bg"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">VII</div>
+          <h2 class="scene-title">She Leaves First</h2>
+          <div class="typed-block" data-typed>
+            <p>There were times we drifted apart.</p>
+            <p>More than once. I lost count after a while.</p>
+            <p>Not because we stopped loving each other.</p>
+            <p>But because some distances grow whether you want them to or not.</p>
+            <p>I do not think either of us wanted it to end.</p>
+            <p>I think we just ran out of ways to find each other again.</p>
+            <p>And maybe that is okay.</p>
+          </div>
+          <div class="fallen-star" id="fallen-star">
+            <svg viewBox="0 0 100 100"><polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" /></svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="leaving" class="scene scene-leaving" data-theme="cool">
+        <div class="scene-bg"></div>
+        <div class="container narrow">
+          <div class="chapter-mark">VIII</div>
+          <h2 class="scene-title">Leaving Home</h2>
+          <div class="table-scene" id="table-scene">
+            <div class="table"></div>
+            <div class="letter-folded"></div>
+            <div class="ring"></div>
+          </div>
+          <div class="typed-block" data-typed>
+            <p>I left everything on the table.</p>
+            <p>The letter I wrote you.</p>
+            <p>The ring I gave you.</p>
+            <p>All of it. Still there.</p>
+            <p>Some things are not meant to be carried forward.</p>
+            <p>They are meant to be left where they belong.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="closing" class="scene scene-closing" data-theme="deep">
+        <div class="scene-bg"></div>
+        <canvas id="star-canvas"></canvas>
+        <div class="container narrow">
+          <div class="chapter-mark">IX</div>
+          <h2 class="scene-title">The Letter</h2>
           <div class="envelope" id="envelope">
             <div class="envelope-flap"></div>
             <div class="envelope-paper">
-              <p class="paper-line">Ina,</p>
-              <p class="paper-line">Aku menjaga rumah ini tetap hangat setiap kali kamu pergi.</p>
-              <p class="paper-line">Bukan karena aku mengharapmu kembali, tapi karena sebagian dari diriku masih ingin kamu merasa diterima, bahkan dari jauh.</p>
-              <p class="paper-line">Aku sedang belajar bahwa cinta bisa tulus dan tetap tidak cukup.</p>
-              <p class="paper-line">Bahwa bertahan bisa menjadi keberanian, dan melepaskan juga bisa begitu.</p>
-              <p class="paper-line">Aku harap air laut membawamu ketenangan. Aku harap kamu menemukan rumah yang tidak perlu dibujuk.</p>
-              <p class="paper-line signoff">untuk selamanya, dengan cara yang sunyi</p>
+              <p class="paper-line">Dear Ina,</p>
+              <p class="paper-line">Time moves so fast. Does not it?</p>
+              <p class="paper-line">Four years with you. All of it. Every good day, every hard day, every laugh and every tear.</p>
+              <p class="paper-line">We fought. We tried. We held on. We hoped for the best in each other.</p>
+              <p class="paper-line">Not a single moment of it do I regret. Not one.</p>
+              <p class="paper-line">Every place we went together. Every date we planned. Every sunrise we chased. Every train we almost missed. Every song we sang in the car.</p>
+              <p class="paper-line">Every juice we blended. Every meal we cooked. Every cake we baked. Every kiss. Every hug. They all meant something.</p>
+              <p class="paper-line">We dreamed. I guess some dreams stay dreams.</p>
+              <p class="paper-line">Maybe we were not meant to stay in this universe together.</p>
+              <p class="paper-line">Do I envy the version of me in another universe who gets to keep you?</p>
+              <p class="paper-line">Of course I do.</p>
+              <p class="paper-line indo">Aku mungkin bukan yang terbaik di luar sana, tapi aku sudah berusaha yang terbaik menurut aku. Maaf itu belum cukup untuk kamu.</p>
+              <p class="paper-line indo">Tidak ada sedikit pun yang bisa aku rayakan dari perpisahan kita, karena kamu, adalah hal yang selalu aku impikan.</p>
+              <p class="paper-line">I am not celebrating this goodbye.</p>
+              <p class="paper-line">I am honoring what we built.</p>
+              <p class="paper-line">Every corner of that home. Every star I folded for you. Every wave we weathered.</p>
+              <p class="paper-line">You were my dream, Ina.</p>
+              <p class="paper-line">I hope your beauty never fades. Not the one the world sees. The one I was lucky enough to witness. The way you smiled when we baked together. The way you looked at me when you thought I was not watching. I hope that beauty stays. Always.</p>
+              <p class="paper-line">Dreams do not disappear. They just change shape.</p>
+              <p class="paper-line">Go find your next shore, Ina.</p>
+              <p class="paper-line">I will be okay.</p>
+              <p class="paper-line">Goodbye, my dream girl.</p>
             </div>
             <div class="envelope-body"></div>
-            <button class="btn-fold" id="letter-toggle">buka surat</button>
+            <button class="btn-fold" id="letter-toggle">open letter</button>
           </div>
-        </div>
-      </section>
-
-      <!-- three goodbyes -->
-      <section id="goodbyes" class="scene scene-goodbyes" data-theme="cool">
-        <div class="scene-bg"></div>
-        <div class="container">
-          <div class="chapter-mark">IV</div>
-          <h2 class="scene-title">Three goodbyes</h2>
-          <div class="scene-text">
-            <p>Kamu pergi tiga kali. Yang pertama terasa seperti kejutan, yang kedua seperti pola, yang ketiga seperti gelombang yang perlahan kembali ke laut.</p>
-            <p>Aku tetap tinggal, bukan karena aku tidak mengerti, tapi karena aku masih mengucapkan terima kasih.</p>
-          </div>
-          <div class="photo-reveal photo-5">
-            <div class="photo-caption">Kursi itu tetap hangat untuk sementara waktu.</div>
-            <img src="/images/placeholder-5.jpg" alt="placeholder" />
-          </div>
-        </div>
-      </section>
-
-      <!-- release -->
-      <section id="release" class="scene scene-release" data-theme="release">
-        <div class="scene-bg"></div>
-        <canvas id="star-canvas"></canvas>
-        <div class="container">
-          <div class="chapter-mark">V</div>
-          <h2 class="scene-title">Letting go</h2>
-          <div class="scene-text">
-            <p>Beberapa cerita berakhir dengan bintang, bukan badai.</p>
-            <p>Ketuk bintang origami di bawah ini, lipat, dan lepaskan.</p>
-          </div>
-          <div class="star-stage" id="star-stage">
-            <div class="origami-star" id="origami-star" role="button" tabindex="0" aria-label="Lepaskan bintang origami">
-              <svg viewBox="0 0 100 100">
-                <polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" />
-              </svg>
+          <div class="star-release" id="star-release">
+            <p class="release-prompt">Tap the last star and let it go.</p>
+            <div class="origami-star" id="origami-star" role="button" tabindex="0" aria-label="Release the origami star">
+              <svg viewBox="0 0 100 100"><polygon points="50,2 61,38 98,38 68,60 79,96 50,74 21,96 32,60 2,38 39,38" /></svg>
             </div>
+            <div class="release-note" id="release-note">The star has gone where the tide takes it.</div>
           </div>
-          <div class="release-note" id="release-note">
-            Bintang itu telah pergi ke mana arus membawanya.
+          <div class="archive-link">
+            <a href="#" target="_blank" rel="noopener">Archive of us</a>
           </div>
         </div>
       </section>
@@ -151,6 +281,5 @@
       </footer>
     </main>
   </div>
-
 </body>
 </html>

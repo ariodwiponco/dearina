@@ -3,7 +3,7 @@ export function initGate(onUnlock) {
   const input = document.getElementById('pass-input')
   const btn = document.getElementById('pass-btn')
   const error = document.getElementById('pass-error')
-  const PASS = '251101'
+  const PASS = '25112001'
 
   input.focus()
 

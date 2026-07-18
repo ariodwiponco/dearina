@@ -1,10 +1,10 @@
-export function initHeroTypewriter() {
+export function initTypewriter() {
   const el = document.querySelector('.hero-tagline')
   if (!el) return
   const lines = [
-    'rumah yang aku bangun untukmu perlahan.',
-    'air laut surut, air laut pasang.',
-    'untuk seseorang yang pernah aku tunggu.'
+    'You will always be the dream I always tried to reach.',
+    'But I think I have fallen among the stars while trying.',
+    'Dear Ina.'
   ]
   let lineIndex = 0
   let charIndex = 0
@@ -19,19 +19,16 @@ export function initHeroTypewriter() {
       el.textContent = current.substring(0, charIndex + 1)
       charIndex++
     }
-
-    let speed = deleting ? 30 : 65
+    let speed = deleting ? 28 : 60
     if (!deleting && charIndex === current.length) {
       speed = 2200
       deleting = true
     } else if (deleting && charIndex === 0) {
       deleting = false
       lineIndex = (lineIndex + 1) % lines.length
-      speed = 600
+      speed = 500
     }
-
     setTimeout(tick, speed)
   }
-
   tick()
 }

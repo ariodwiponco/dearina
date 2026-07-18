@@ -12,7 +12,7 @@ export function initStarCanvas() {
   resize()
   window.addEventListener('resize', resize)
 
-  for (let i = 0; i < 60; i++) {
+  for (let i = 0; i < 70; i++) {
     particles.push({
       x: Math.random() * width,
       y: Math.random() * height,

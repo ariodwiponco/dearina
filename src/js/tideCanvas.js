@@ -21,7 +21,6 @@ export function initTideCanvas() {
   function draw() {
     ctx.clearRect(0, 0, width, height)
     time += 1
-
     waves.forEach((w) => {
       ctx.beginPath()
       ctx.fillStyle = w.color
@@ -34,7 +33,6 @@ export function initTideCanvas() {
       ctx.closePath()
       ctx.fill()
     })
-
     requestAnimationFrame(draw)
   }
   draw()
