@@ -104,16 +104,25 @@ TBD — hex codes to be defined per section during design phase.
 
 ### 5. The Good Times
 - Room fully furnished, vibrant colors
-- Photos enter playfully — card flip, slight bounce
+- **Dynamic image + text pairs** — each line has its own photos (single or multiple) accompanying it
+- Text appears one line at a time with scroll, each has matching photo(s):
+  - **"Countless places we visited."** → photos of places together (varied: full-bleed hero, or small cluster)
+  - **"Endless foods and drinks we tried."** → food photos, cafe shots, street food
+  - **"Boundless activities we did together."** → activity photos, candid moments
+  - **"And infinite kisses and hugs sent between us."** → close intimate photos
+- Photos enter playfully — card flip, bounce, staggered reveal
 - Hover/tap wiggle on photos
+- Masonry or varied grid — photos sized by importance
+- Each pair has its own layout (some full-bleed, some split, some grid) — never repetitive
 - Still warm, but energetic
 
 ### 6. Letters
 - Room quiets — one spotlight on a table
 - Folded paper letter (CSS paper fold animation)
 - Click/tap to unfold — reveals paragraphs one by one
-- Handwritten font on textured paper background
+- Handwritten font (Caveat) on textured paper background
 - Multiple letters possible (swipe/scroll between them)
+- **Content:** TBD (your letter to Ina)
 
 ### 7. The Turn
 - Room darkens gradually
