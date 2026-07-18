@@ -145,7 +145,19 @@ TBD — hex codes to be defined per section during design phase.
 - Sea outside window starts rising and falling faster (*air laut surut pasang*)
 - Origami stars on shelf dim one by one
 - Animations decelerate
-- Text appears: "Coming air laut surut pasang, tapi rasanya akan selalu sama"
+- **Text structure — scroll reveals step by step:**
+  - *"After every storm, we rebuilt."*
+  - *"But the waves kept coming."*
+  - *"And slowly — the shore started changing shape."*
+  - *"Something shifted between us."*
+  - *"I don't know when. Or who."*
+  - *"But the air felt different when we were in the same room."*
+  - *(pause — everything dims)*
+  - *"Air laut surut pasang, tapi rasanya akan selalu sama."*
+  - *(pause — line stays alone)*
+  - *"It used to be a comfort."*
+  - *"Now it's the saddest truth I know."*
+- After final line, tide slows. Silence. Screen darkens. → She Leaves First
 
 ### 9. She Leaves First
 - Room still the same, but she's not there
