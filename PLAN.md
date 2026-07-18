@@ -27,10 +27,24 @@ Single-page, top-to-bottom, chronological:
 5. **The end** — goodbye, last words
 6. **Closing** — final message, release
 
-## 4. Content
+## 4. Animation & Transition Per Section
+
+| Section | Animation | Vibe |
+|---------|-----------|------|
+| Opening → Beginning | Soft fade-in, slow drift up (20-30px) | Calm, reflective |
+| The good times | **Playful** — photos flip in like cards, bounce slightly, wiggle on hover | Fun, alive |
+| The turn | Vignette darkens gradually, animations decelerate | Tone shift |
+| The end | Typewriter text, floating dust/particle overlay (subtle) | Melancholic, intimate |
+| Closing | Everything stills, final fade to soft dawn tones | Release |
+
+- **Section-triggered shift animation**: as user scrolls between sections, the overall animation "mood" changes — playful in good times, subdued in later sections.
+- All animations use `IntersectionObserver` + CSS transitions/transforms (no heavy libs).
+- Target < 50KB extra, no jank on mid-range devices.
+
+## 5. Content
 - Photos (user's own)
 - Letters / written words
-- Effects & animations (per-scroll transitions, parallax, fade)
+- Effects & animations (per-scroll transitions, vignette shift)
 
 ---
 
