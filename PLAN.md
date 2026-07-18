@@ -93,9 +93,14 @@ TBD — hex codes to be defined per section during design phase.
 ### 4. Building Home (Gradual)
 - **Scroll-driven reveal:** empty room → furniture appears one by one
 - Window visible, facing ocean
-- Items that appear (order TBD): window frame → table → chair → lamp → shelf → origami stars → photos on wall → plants
-- Each item has a subtle entrance animation (fade + slight drift up)
+- Items appear in order (TBD): window frame → table → chair → lamp → shelf → origami stars → photos on wall → plants
 - Warm golden light growing with each addition
+- **Opening line:** "Apakah kamu ingat impresi pertamamu terhadap aku? Laki-laki ugal-ugalan."
+- Scroll reveals: "A love you've never experienced before, right?"
+- Then as items fill the room:
+  - "Rumah aku dan kamu memang tidak sempurna."
+  - "Tapi kita sama-sama mau mengisinya."
+- Each item represents a memory, a moment built together
 
 ### 5. The Good Times
 - Room fully furnished, vibrant colors
